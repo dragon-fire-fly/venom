@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Informative website about venomous and poisonous animals">
     <meta name="keywords" content="venom, venomous animals, poison, poisonous animals">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Invertebrates</title>
-  
+
 </head>
+
 <body>
-    <header>
-        <a href="index.html">
-            <h1>Love Venom</h1>
-        </a>
-        <nav>
-            <ul>
-                <li>
+    <main>
+        <header>
+            <a href="index.html">
+                <h1>Love Venom</h1>
+            </a>
+            <nav>
+                <div class="nav_menu" id="navTop">
                     <a href="index.html">Home</a>
-                </li>
-                <li>
                     <a href="vertebrates.html">Vertebrates</a>
-                </li>
-                <li>
-                    <a href="invertebrates.html">Invertebrates</a>
-                </li>
-                <li>
+                    <a href="invertebrates.html" class="active">Invertebrates</a>
                     <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </nav>
+
+        </header>
+
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+
+    </footer>
 
 
-    </header>
 
+    <!-- Javascript for the navigation bar on smaller screens-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navTop");
+            if (x.className === "nav_menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav_menu";
+            }
+        }
+    </script>
+
+
+
+
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/4a9fb983cf.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
