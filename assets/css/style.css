@@ -58,24 +58,35 @@ nav li {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
 }
 
-.main-photo-left {
+.main-photo-one {
+    width: 100%;
+    height: 100px;
+    display: inline-block; 
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: #126100;
+}
+
+#main-toad {
+    
+    width: 100%;
+    height: auto;
+}
+
+.main-photo-two {
     width: 100%;
     height: 600px;
     display: inline-block; 
     grid-column-start: 2;
-    grid-column-end: 6;
-    background-color: #126100;
-}
-
-.main-photo-right {
-    width: 100%;
-    height: 600px;
-    display: inline-block; 
-    grid-column-start: 7;
     grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: span 1;
     background-color: #126100;
 }
 
@@ -133,9 +144,24 @@ footer ul {
 
 
 
+/* Media queries */
+@media screen and (min-width: 950px) {
+    .main-photo-one {
+        display: inline-block; 
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: -1;
+    }
 
-
-
+    .main-photo-two {
+        display: inline-block; 
+        grid-column-start: 7;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: -1;
+    }
+}
 
 /* nav menu responsive java bar - everything below from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
   .nav_menu .icon {
