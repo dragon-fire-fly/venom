@@ -12,3 +12,37 @@ h1 {
     font-weight: 300;
     color: #126100;
 }
+
+nav li {
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+
+
+/* nav menu responsive java bar - everything below from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+  .nav_menu .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav_menu a:not(:first-child) {display: none;}
+    .nav_menu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav_menu.responsive {position: relative;}
+    .nav_menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav_menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
