@@ -5,6 +5,11 @@ body {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: #DDE7C7;
+}
+
+header a {
+    text-decoration: none;
 }
 
 h1 {
@@ -12,6 +17,22 @@ h1 {
     font-weight: 300;
     color: #126100;
 }
+
+nav {
+    background-color: #87B69B;
+    text-align: center;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    padding: 30px;
+}
+
+.nav_menu a:hover {
+
+}
+
+
 
 nav li {
     float: right;
@@ -21,7 +42,8 @@ nav li {
 
 /* Footer */
 footer {
-    height: 200px
+    height: 100px;
+    background-color: #87B69B;
 }
 
 footer ul {
