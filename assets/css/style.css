@@ -39,7 +39,7 @@ nav {
 
 .nav_menu a {
     color: black;
-    font-size: 150%;
+    font-size: 120%;
     text-decoration: none;
     padding: 0px 30px 0px 30px;
 }
@@ -109,30 +109,19 @@ nav li {
 
 /* Footer */
 footer {
-    height: 600px;
+    height: 200px;
     width: 100vw;
     color: black;
     margin: 0;
 }
 
 .footer-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 100%;
+    height: 200px;
     width: 100%;
-    background-color: #0282a5;
+    background-color: #87B69B;
 
 }
 
-.footer-img {
-    background: url(/assets/images/footer-spider-img.jpeg) no-repeat right bottom;
-    grid-column-start: span 12;
-    grid-column-end: -1;
-    grid-row-start: 1;
-    grid-row-end: -1;
-    background-attachment: fixed;
-}
 
 footer ul {
     text-align: left;
@@ -146,6 +135,19 @@ footer ul {
     padding: 0;
     font-size: 200%;
     color: black;
+}
+
+.back-to-top {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 45%
+}
+
+.back-to-top a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
 }
 
 
@@ -165,7 +167,7 @@ footer ul {
         display: inline-block;
         text-align: center;
         grid-column-start: 2;
-        grid-column-end: 6;
+        grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: span 2;
     }
@@ -187,12 +189,31 @@ footer ul {
         max-width: 100%;
         height: 100%;
     }
-    .nav_menu a {
-        font-size: 180%;
+    
+    footer {
+        height: 600px;
+        width: 100vw;
+        color: black;
+        margin: 0;
     }
-    h1 {
-        font-size: 300%;
+    
+    .footer-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 600px;
+        width: 100%;
+        background-color: #0282a5;
+    
     }
+    .footer-img {
+        background: url(../images/footer-spider-img.jpeg) no-repeat center bottom;
+        grid-column-start: span 12;
+        grid-column-end: -1;
+        grid-row-start: 1;
+        grid-row-end: -1;
+        background-attachment: fixed;
+    } 
 }
 
 /* nav menu responsive java bar - everything below from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
