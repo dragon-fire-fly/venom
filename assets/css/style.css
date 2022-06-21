@@ -7,9 +7,9 @@
 }
 
 body {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: black;
     background-color: #DDE7C7;
     width: 100vw;
     margin: 0 auto;
@@ -38,6 +38,8 @@ nav {
 }
 
 .nav_menu a {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 300;
     color: black;
     font-size: 120%;
     text-decoration: none;
@@ -52,11 +54,6 @@ nav {
     border-bottom: 2px solid black;
 }
 
-nav li {
-    float: right;
-    list-style-type: none;
-    margin: 20px;
-}
 
 /* Main body */
 .grid-container {
@@ -78,9 +75,12 @@ nav li {
 }
 
 #main-toad {
-
     width: 100%;
     height: auto;
+}
+
+#vertebrate-label:hover {
+    text-transform: uppercase;
 }
 
 .main-photo-two {
@@ -100,11 +100,16 @@ nav li {
     height: auto;
 }
 
+#invertebrate-label:hover {
+    text-transform: uppercase;
+}
+
 .grid-container a {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 300;
     font-size: 200%;
     color: black;
     text-decoration: none;
-
 }
 
 /* Footer */
@@ -207,7 +212,7 @@ footer ul {
     
     }
     .footer-img {
-        background: url(../images/footer-spider-img.jpeg) no-repeat center bottom;
+        background: url(../images/footer-spider-img.jpeg) no-repeat right bottom;
         grid-column-start: span 12;
         grid-column-end: -1;
         grid-row-start: 1;
