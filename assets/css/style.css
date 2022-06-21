@@ -161,7 +161,7 @@ footer ul {
 .grid-container-info-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .animal-photos {
@@ -199,6 +199,21 @@ footer ul {
     text-align: center;
 }
 
+.animal-three {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.animal-three-text-container {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    text-align: center;
+}
+
 
 
 
@@ -232,7 +247,12 @@ footer ul {
     } 
     
     /* index.html media queries */
-    
+    .grid-container-info-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 75px 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
     .main-photo-one {
         display: inline-block;
         text-align: center;
@@ -266,23 +286,21 @@ footer ul {
         grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: 2;
-    
     }
     
     .animal-one-text-container {
-        grid-column-start: 7;
-        grid-column-end: 12;
+        grid-column-start: 8;
+        grid-column-end: 13;
         grid-row-start: 1;
         grid-row-end: 2;
         text-align: center;
     }
 
     .animal-two {
-        grid-column-start: 7;
-        grid-column-end: 12;
+        grid-column-start: 8;
+        grid-column-end: 13;
         grid-row-start: 2;
         grid-row-end: 3;
-    
     }
     
     .animal-two-text-container {
@@ -292,6 +310,21 @@ footer ul {
         grid-row-end: 3;
         text-align: center;
     }
+
+    .animal-three {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .animal-three-text-container {
+        grid-column-start: 8;
+        grid-column-end: 13;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        text-align: center;
+    }    
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
