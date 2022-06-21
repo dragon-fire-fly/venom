@@ -119,9 +119,7 @@ footer {
     height: 200px;
     width: 100%;
     background-color: #87B69B;
-
 }
-
 
 footer ul {
     text-align: left;
@@ -138,10 +136,12 @@ footer ul {
 }
 
 .back-to-top {
-    text-align: center;
+    /* width: 100%; */
     position: fixed;
     bottom: 0;
-    left: 45%
+    left: 50%;
+    margin-left: -60px;
+    
 }
 
 .back-to-top a {
