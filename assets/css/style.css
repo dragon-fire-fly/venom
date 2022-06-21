@@ -146,7 +146,7 @@ footer ul {
     text-transform: uppercase;
 }
 
-.grid-container a {
+.grid-container-main a {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 300;
     font-size: 200%;
@@ -158,6 +158,10 @@ footer ul {
 
 
 /* Information pages */
+.page-intro{
+    text-align: center;
+    padding:20px;
+}
 .grid-container-info-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -167,6 +171,11 @@ footer ul {
 .animal-photos {
     max-width: 100%;
     border-radius: 2%;
+}
+
+.animal-text-containers {
+    text-align: center;
+    padding: 20px;
 }
 
 .animal-one {
@@ -181,7 +190,6 @@ footer ul {
     grid-column-end: 12;
     grid-row-start: 2;
     grid-row-end: 3;
-    text-align: center;
 }
 
 .animal-two {
