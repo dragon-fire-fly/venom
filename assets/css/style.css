@@ -98,7 +98,7 @@ footer ul {
 }
 
 /* Main body index.html */
-.grid-container {
+.grid-container-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -158,10 +158,16 @@ footer ul {
 
 
 /* Information pages */
-
+.grid-container-info-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .animal-one {
     grid-column-start: 2;
     grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
     text-align: center;
 
 }
@@ -169,6 +175,8 @@ footer ul {
 .animal-one-text-container {
     grid-column-start: 2;
     grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
     text-align: center;
 }
 
@@ -234,7 +242,23 @@ footer ul {
         height: 100%;
     }
 
+    /* Information page media queries*/
+    .animal-one {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
     
+    }
+    
+    .animal-one-text-container {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        text-align: center;
+    }
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
