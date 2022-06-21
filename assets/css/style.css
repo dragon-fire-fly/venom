@@ -14,6 +14,7 @@ body {
     width: 100vw;
     margin: 0 auto;
 }
+
 /* Header and nav */
 header {
     width: 100%;
@@ -38,7 +39,7 @@ nav {
 .nav_menu a {
     color: black;
     text-decoration: none;
-    padding: 0px 30px 0px 30px; 
+    padding: 0px 30px 0px 30px;
 }
 
 .nav_menu a:hover {
@@ -48,6 +49,7 @@ nav {
 .active {
     border-bottom: 2px solid black;
 }
+
 nav li {
     float: right;
     list-style-type: none;
@@ -58,39 +60,43 @@ nav li {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .main-photo-one {
     width: 100%;
-    height: 100px;
-    display: inline-block; 
-    grid-column-start: 2;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: span 1;
-    background-color: #126100;
+    background-color: #DDE7C7;
 }
 
 #main-toad {
-    
+
     width: 100%;
     height: auto;
 }
 
 .main-photo-two {
     width: 100%;
-    height: 600px;
-    display: inline-block; 
-    grid-column-start: 2;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 2;
     grid-row-end: span 1;
-    background-color: #126100;
+    background-color: #DDE7C7;
 }
 
-
+#main-wasp {
+    width: 100%;
+    height: auto;
+}
 
 /* Footer */
 footer {
@@ -107,7 +113,7 @@ footer {
     height: 100%;
     width: 100%;
     background-color: #0282a5;
-    
+
 }
 
 .footer-img {
@@ -124,11 +130,11 @@ footer ul {
     margin: 0;
 }
 
-.social-networks li{
+.social-networks li {
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
-    padding:0;
+    padding: 0;
     font-size: 200%;
     color: black;
 }
@@ -147,45 +153,63 @@ footer ul {
 /* Media queries */
 @media screen and (min-width: 950px) {
     .main-photo-one {
-        display: inline-block; 
+        display: inline-block;
+        text-align: center;
         grid-column-start: 2;
-        grid-column-end: 6;
+        grid-column-end: 7;
         grid-row-start: 1;
-        grid-row-end: -1;
+        grid-row-end: span 2;
     }
-
+    #main-toad {
+        width: auto;
+        max-width: 100%;
+        height: 100%;
+    }
     .main-photo-two {
-        display: inline-block; 
-        grid-column-start: 7;
-        grid-column-end: 11;
+        display: inline-block;
+        text-align: center;
+        grid-column-start: 8;
+        grid-column-end: 12;
         grid-row-start: 1;
-        grid-row-end: -1;
+        grid-row-end: span 2;
+    }
+    #main-wasp {
+        width: auto;
+        max-width: 100%;
+        height: 100%;
     }
 }
 
 /* nav menu responsive java bar - everything below from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-  .nav_menu .icon {
+.nav_menu .icon {
     display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .nav_menu a:not(:first-child) {display: none;}
+}
+
+@media screen and (max-width: 600px) {
+    .nav_menu a:not(:first-child) {
+        display: none;
+    }
+
     .nav_menu a.icon {
-      float: right;
-      display: block;
+        float: right;
+        display: block;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .nav_menu.responsive {position: relative;}
+}
+
+@media screen and (max-width: 600px) {
+    .nav_menu.responsive {
+        position: relative;
+    }
+
     .nav_menu.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
+
     .nav_menu.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+        float: none;
+        display: block;
+        text-align: left;
     }
-  }
+}
