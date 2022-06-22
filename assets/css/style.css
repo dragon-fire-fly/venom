@@ -158,6 +158,22 @@ footer ul {
 
 
 /* Information pages */
+.local-nav {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 110%; 
+}
+.local-nav a {
+    font-size: 110%;
+    text-decoration: none;
+    color: black;
+    font-weight: 500; 
+}
+
+.local-nav a:hover {
+    text-transform: uppercase;
+}
+
 .page-intro {
     text-align: center;
     padding: 20px;
