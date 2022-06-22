@@ -234,7 +234,6 @@ footer ul {
     width: 100%;
 }
 
-
 #contact-page-img {
     background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
     grid-column-start: 1;
@@ -245,6 +244,9 @@ footer ul {
 
 }
 
+.feedback-form {
+    color: white;
+}
 
 
 /* Media queries */
