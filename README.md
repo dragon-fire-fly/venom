@@ -24,26 +24,49 @@ The following fonts were selected from Google Fonts:
 - _Roboto Mono regular 300_ for the main page photo labels and nav bar
 
 ### Wireframes
-The following wireframes were created using Balsamiq Wireframes:
+<details>
+<summary>
+The following wireframes were created using Balsamiq Wireframes:</summary>
 
 | Name  | Wireframe  |
 |---|---|
-| Simple Sitemap  |   | 
-|  Expanded Sitemap |   |
-| Home page |   |
-| Vertebrates page  |   |
-| Invertebrates page  |   |
-| Example page (reptiles)  |   |
-| Example page (spiders)  |   |
-| Contact page  |   |
+| Simple Sitemap  | ![a simplified sitemap](documentation/wireframes/sitemap_simple_wireframe.png)  | 
+|  Expanded Sitemap |  ![sitemap](documentation/wireframes/sitemap_wireframe.png) |
+| Home page | ![a wireframe of the home page](documentation/wireframes/home_wireframe.png)  |
+| Vertebrates page  | ![a wireframe of the vertebrates page](documentation/wireframes/vertebrates_wireframe.png)  |
+| Invertebrates page  | ![a wireframe of the invertebrates page](documentation/wireframes/invertebrates_wireframe.png) |
+| Example page (reptiles)  | ![a wireframe example of an inner page (reptiles)](documentation/wireframes/reptiles_wireframe.png)  |
+| Contact page  | ![a wireframe of the contact page](documentation/wireframes/contact_wireframe.png)  |
 
-
-
-
-
-
-
-
-
+</details>
 
 ## Features
+<!-- Briefly explain the project here -->
+
+### Existing Features
+
+### Features Left to Implement
+
+## Technologies used
+1. HTML5
+2. CSS3
+3. [Gitpod](https://gitpod.io/)
+4. [Github](https://github.com/)
+5. [Balsamiq](https://balsamiq.com/) (for wireframes)
+
+## Testing
+<!-- Link to seperate testing file -->
+
+## Deployment
+
+### Local deployment
+
+## Credits
+
+### Content
+[Top navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+
+### Media
+<!-- Images and video credits go here -->
+
+### Acknowledgements
