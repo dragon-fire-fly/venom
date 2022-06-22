@@ -167,6 +167,7 @@ footer ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .animal-photos {
@@ -223,6 +224,20 @@ footer ul {
     text-align: center;
 }
 
+.animal-four {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.animal-four-text-container {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    text-align: center;
+}
 
 /* Contact page */
 
@@ -359,6 +374,21 @@ footer ul {
         grid-column-end: 13;
         grid-row-start: 3;
         grid-row-end: 4;
+        text-align: center;
+    }
+
+    .animal-four {
+        grid-column-start: 8;
+        grid-column-end: 13;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .animal-four-text-container {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 4;
+        grid-row-end: 5;
         text-align: center;
     }
 }
