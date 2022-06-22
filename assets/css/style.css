@@ -88,7 +88,7 @@ footer ul {
     bottom: 0;
     left: 50%;
     margin-left: -60px;
-    
+
 }
 
 .back-to-top a {
@@ -158,14 +158,15 @@ footer ul {
 
 
 /* Information pages */
-.page-intro{
+.page-intro {
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
+
 .grid-container-info-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .animal-photos {
@@ -223,11 +224,32 @@ footer ul {
 }
 
 
+/* Contact page */
+
+#contact-page-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 1000px;
+    width: 100%;
+}
+
+
+#contact-page-img {
+    background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    background-size: cover;
+
+}
 
 
 
 /* Media queries */
 @media screen and (min-width: 950px) {
+
     /* Footer media queries*/
     footer {
         height: 600px;
@@ -235,16 +257,17 @@ footer ul {
         color: black;
         margin: 0;
     }
-    
+
     .footer-div {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         height: 600px;
         width: 100%;
         background-color: #0282a5;
-    
+
     }
+
     .footer-img {
         background: url(../images/footer-spider-img.jpeg) no-repeat right bottom;
         grid-column-start: span 12;
@@ -252,8 +275,8 @@ footer ul {
         grid-row-start: 1;
         grid-row-end: -1;
         background-attachment: fixed;
-    } 
-    
+    }
+
     /* index.html media queries */
     .grid-container-info-page {
         display: grid;
@@ -269,11 +292,13 @@ footer ul {
         grid-row-start: 1;
         grid-row-end: span 2;
     }
+
     #main-toad {
         width: auto;
         max-width: 100%;
         height: 100%;
     }
+
     .main-photo-two {
         display: inline-block;
         text-align: center;
@@ -282,6 +307,7 @@ footer ul {
         grid-row-start: 1;
         grid-row-end: span 2;
     }
+
     #main-wasp {
         width: auto;
         max-width: 100%;
@@ -295,7 +321,7 @@ footer ul {
         grid-row-start: 1;
         grid-row-end: 2;
     }
-    
+
     .animal-one-text-container {
         grid-column-start: 8;
         grid-column-end: 13;
@@ -310,7 +336,7 @@ footer ul {
         grid-row-start: 2;
         grid-row-end: 3;
     }
-    
+
     .animal-two-text-container {
         grid-column-start: 2;
         grid-column-end: 7;
@@ -332,7 +358,7 @@ footer ul {
         grid-row-start: 3;
         grid-row-end: 4;
         text-align: center;
-    }    
+    }
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
