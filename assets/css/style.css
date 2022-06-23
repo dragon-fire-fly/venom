@@ -35,6 +35,7 @@ h1 {
 nav {
     background-color: #87B69B;
     text-align: center;
+    padding: 15px;
 }
 
 .nav_menu a {
