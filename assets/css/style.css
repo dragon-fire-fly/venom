@@ -156,7 +156,59 @@ footer ul {
 }
 
 /* Vertebrate and invertebrate intermediate pages*/
+.grid-container-intermediate-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
 
+.intermediate-photo-one {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-color: #126100;
+}
+
+.intermediate-photo-two {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    background-color: #126100;
+}
+
+.intermediate-photo-three {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-color: #126100;
+}
+
+.intermediate-photo-four {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: span 1;
+    background-color: #126100;
+}
 
 /* Information pages */
 .local-nav {
@@ -346,6 +398,38 @@ footer ul {
         width: auto;
         max-width: 100%;
         height: 100%;
+    }
+
+    /* Intermediate page media queries */
+    .grid-container-intermediate-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .intermediate-photo-one {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: span 1;
+    }
+    .intermediate-photo-two {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: span 1;
+    }
+
+    .intermediate-photo-three {
+        grid-column-start: 8;
+        grid-column-end: 10;
+        grid-row-start: 2;
+        grid-row-end: span 1;
+    }
+    .intermediate-photo-four {
+        grid-column-start: 11;
+        grid-column-end: 13;
+        grid-row-start: 2;
+        grid-row-end: span 1;
     }
 
     /* Information page media queries*/
