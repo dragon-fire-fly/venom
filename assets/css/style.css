@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     color: black;
     background-color: #DDE7C7;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -93,12 +93,12 @@ footer ul {
 }
 
 .back-to-top {
-    /* width: 100%; */
     position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
-    left: 50%;
-    margin-left: -60px;
-
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .back-to-top a {
@@ -110,7 +110,7 @@ footer ul {
 /* Main body index.html */
 .grid-container-main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
 }
 
@@ -372,7 +372,7 @@ footer ul {
     /* Footer media queries*/
     footer {
         height: 600px;
-        width: 100vw;
+        width: 100%;
         color: black;
         margin: 0;
     }

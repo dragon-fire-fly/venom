@@ -4,6 +4,8 @@
 
 <!-- Responsive mockup to go here -->
 
+Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
+
 ## UX
 Love Venom was designed to provide a simple and easily navigatable website with a focus on large, high quality photos and accompanying text.
 ### User Stories
@@ -59,6 +61,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 3. [Gitpod](https://gitpod.io/)
 4. [Github](https://github.com/)
 5. [Balsamiq](https://balsamiq.com/) (for wireframes)
+6. CSS grid
 
 ## Testing
 <!-- Link to seperate testing file -->
@@ -82,7 +85,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | footer-spider-img.jpeg  | https://www.pexels.com/photo/brown-and-yellow-spider-on-blue-background-7817537/  |
 | cobra-profile-img.jpeg  | https://www.pexels.com/photo/a-wildlife-photography-of-an-indian-cobra-10440465/  |
 | horned-viper-img.webp  | https://www.pexels.com/photo/snake-toxic-terrarium-63851/  |
-| beaded-lizard-img.jpg  | https://www.flickr.com/photos/anguskirk/3864249029/in/photolist-6TthBg-6MEvdf-hjkDC-bwhxkx-bwhw9D-9hMcsG-bBvW5F-LZzK8A-4fAyuv-8M52mJ-6qVMoq-9hdCaX-5NCTGz-bWnnCX-wjQRuP-9hgKCU-of21SN-x73Ggz-7ronm8-x5q5if-xenj5Z-ow7ZhS-a41fYS-otrQVT-4FrCop-bWnpMT-7rsmRy-JFSkvv-6qBFcY-5WeQbP-4gQJFP-o8QREu-pVjRq2-d9Snbs-6U2534-jQYfub-cdJJe7-5qQSAD-oSVAoR-oeUNn8-8sDR3-emEGut-ovQDSZ-GNgH2F-oy7WQ4-wQqesd-7nxkuV-ovWpjE-8vvGDf-owdvcQ  |
+| beaded-lizard-img.jpg  | [flickr](https://www.flickr.com/photos/anguskirk/3864249029/in/photolist-6TthBg-6MEvdf-hjkDC-bwhxkx-bwhw9D-9hMcsG-bBvW5F-LZzK8A-4fAyuv-8M52mJ-6qVMoq-9hdCaX-5NCTGz-bWnnCX-wjQRuP-9hgKCU-of21SN-x73Ggz-7ronm8-x5q5if-xenj5Z-ow7ZhS-a41fYS-otrQVT-4FrCop-bWnpMT-7rsmRy-JFSkvv-6qBFcY-5WeQbP-4gQJFP-o8QREu-pVjRq2-d9Snbs-6U2534-jQYfub-cdJJe7-5qQSAD-oSVAoR-oeUNn8-8sDR3-emEGut-ovQDSZ-GNgH2F-oy7WQ4-wQqesd-7nxkuV-ovWpjE-8vvGDf-owdvcQ)  |
 | rattlesnake-img.jpeg  | https://www.pexels.com/photo/rattlesnake-reptile-snake-wild-animal-2062322/  |
 | contact-cobweb-img  |  https://www.pexels.com/photo/abstract-arachnid-close-up-cobweb-276342/ |
 |  red-dart-frog-left.webp | https://www.pexels.com/photo/selective-focus-photo-of-red-and-blue-frog-on-ground-3180755/  |
@@ -92,12 +95,15 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | true-spider-in-web.jpeg  | https://www.pexels.com/photo/spider-3660656/  |
 | true-spider-on-leaf.jpeg  | https://www.pexels.com/photo/spider-on-green-leaf-8088890/  |
 | jumping-spider-square-img.jpeg  | https://www.pexels.com/photo/hairy-red-and-gray-jumping-spider-on-green-surface-7817534/  |
-| theraphosid-img.jpg  | https://www.flickr.com/photos/29320962@N07/4218592137/in/photolist-7qMotc-7ne3My-4CSvyU-RSyKHb-7L1cLe-2gNPGDJ-2n7Wrx6-C7c9r-9fBtmV-7sivQT-2hvdihX-7q2jdi-k5TYkn-7L1isx-5jiWHy-9jKbVA-8RkaT2-7mmKfC-8UNTny-6RuQH-7X2bxu-4mMGV-7JzeqP-eutk85-fqZvqx-4nxobV-5zECJi-26BV8FW-tc6wg-6wiM6M-tvHsAP-bT49Dz-N44iyh-5hNwEy-FDfBr-9eaaWe-eCovGd-2bqJrh-6mycVg-754ESV-2bmbbV-3VugC-eCovP9-58Q5QW-8vVdQu-2bqF31-cNxtNh-71iMs-eCovWm-BBW7dV  |
-| forest-scorpion-img.jpg  | https://www.flickr.com/photos/chrisparker2012/14963313385/in/photolist-oNfTKP-5JVpy8-5dopgR-bWMEtu-4DYihH-D8oR9-6xRgst-8htzm-7wG4x9-ZTufC-efhEng-uBPzkm-xunh7H-6DBAoz-2frJ1-nRWAES-cqB18C-a4FTn8-2w4rrh-6hQRqp-cQx6tC-NUNX2-pZsAsW-afaRg7-8kC5Zv-faDskc-4N1rvT-6DBCZX-26Tdyh-p5LEF5-NKokB-oNh3Qz-mw6fyH-p5LEAA-8kFhds-NJE6g-bkfF1g-bdDuii-pKdVjE-6W6BQ-7BELQ-4JaYWe-oFZnw2-c6z5D-cdJEPb-cdJFE9-cdJFYA-dmdTM5-2ZSD2W-NB4LVs  |
+| theraphosid-img.jpg  | [flickr](https://www.flickr.com/photos/29320962@N07/4218592137/in/photolist-7qMotc-7ne3My-4CSvyU-RSyKHb-7L1cLe-2gNPGDJ-2n7Wrx6-C7c9r-9fBtmV-7sivQT-2hvdihX-7q2jdi-k5TYkn-7L1isx-5jiWHy-9jKbVA-8RkaT2-7mmKfC-8UNTny-6RuQH-7X2bxu-4mMGV-7JzeqP-eutk85-fqZvqx-4nxobV-5zECJi-26BV8FW-tc6wg-6wiM6M-tvHsAP-bT49Dz-N44iyh-5hNwEy-FDfBr-9eaaWe-eCovGd-2bqJrh-6mycVg-754ESV-2bmbbV-3VugC-eCovP9-58Q5QW-8vVdQu-2bqF31-cNxtNh-71iMs-eCovWm-BBW7dV)  |
+| forest-scorpion-img.jpg  | [flickr](https://www.flickr.com/photos/chrisparker2012/14963313385/in/photolist-oNfTKP-5JVpy8-5dopgR-bWMEtu-4DYihH-D8oR9-6xRgst-8htzm-7wG4x9-ZTufC-efhEng-uBPzkm-xunh7H-6DBAoz-2frJ1-nRWAES-cqB18C-a4FTn8-2w4rrh-6hQRqp-cQx6tC-NUNX2-pZsAsW-afaRg7-8kC5Zv-faDskc-4N1rvT-6DBCZX-26Tdyh-p5LEF5-NKokB-oNh3Qz-mw6fyH-p5LEAA-8kFhds-NJE6g-bkfF1g-bdDuii-pKdVjE-6W6BQ-7BELQ-4JaYWe-oFZnw2-c6z5D-cdJEPb-cdJFE9-cdJFYA-dmdTM5-2ZSD2W-NB4LVs)  |
 | buthid-scorpion-img.jpg  | https://www.flickr.com/photos/88896512@N03/9621847695/in/gallery-191538957@N07-72157719710468592/  |
 | uv-light-scorpion-img.jpg  | https://www.flickr.com/photos/88896512@N03/9621844341/  |
 | vinegaroon-img.jpg  | https://www.flickr.com/photos/88896512@N03/9625084816/  |
-|   |   |
+| cobra-portrait-img.jpeg  | https://www.pexels.com/photo/a-brown-cobra-in-a-defensive-position-10509721/  |
+| poison-dart-frog-portrait-img.jpeg  | https://www.pexels.com/photo/orange-and-black-frog-674318/  |
+| puffer-fish-puffed-img.jpg  | https://www.pexels.com/photo/puffer-fish-in-aquarium-9004430/  |
+| slow-loris-portrait-img.jpg  | https://www.flickr.com/photos/wcdumonts/11592374646/in/gallery-zoologyboy-72157690380234281/  |
 |   |   |
 |   |   |
 |   |   |
