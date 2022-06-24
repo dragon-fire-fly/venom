@@ -112,8 +112,10 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | stingray-img.jpeg  | https://www.pexels.com/photo/close-up-shot-of-a-stingray-8837892/  |
 | pufferfish-img.jpg  | [flickr](https://www.flickr.com/photos/scattered/26963773151/in/photolist-H5Gomx-akVosY-8WoeRq-8r41sp-aCQMb7-Pr7Sj5-7pTEss-4KtsNr-BS42F-aWKeZ8-aWKaFv-agGchV-3VPJiX-7qPjTR-7qTkm3-7qTmeh-7qTkKd-7qPnQT-7qTca9-7qTjm9-7qPmd4-7qThSo-3VU6cy-3VU9BS-akVs5f-29RGefW-3a32Nq-9nr6SW-s9wa4R-5zMMYV-3VPM6c-93XGGL-dyLx83-7qTeY1-7qTimC-u1nw8-7qPkuV-7qPjqH-27Stm9o-7qTdgw-66oh6r-3VPXjD-7qTdTL-7qPoPM-9tu4p7-HSwnCM-7qTcMm-9AV2Zg-7qPiqP-6BV3ZE)  |
 | lionfish-img.webp  | https://www.pexels.com/photo/close-up-shot-of-a-lionfish-8856049/  |
-|   |   |
-|   |   |
+| shrew-img.jpg  | [flickr](https://www.flickr.com/photos/gillesgonthier/6738152247/in/photolist-bgqMUK-gu5PAk-gvpniK-abzjSK-5vcNCc-cSx6XS-CKLia-CKLih-zemZ46-bAoz3U-bPicMa-hv2EdU-bQEooc-zmRzWG-q4i7vP-zo762N-SNo6i1-JQHJRD-KEipCX-RC1QHX-aLSnCF-29YkZDh-TAy4rL-aFCsZX-27H625-9e41cX-aB3esg-a7ndg9-7NMv25-bzLpb5-aMeytK-aQYH2v-8U3VSf-aJhUi6-aRoEs2-aGhLcZ-bzLooA-aEyNAM-amN3nd-8U3V2C-bLkQxB-aUsmHM-aB5UjQ-7URtLU-aNYDXv-aGhNza-aSxEQp-aS156e-aS16SX-adCTbZ)  |
+| slow-loris-img.jpg  | [flickr](https://www.flickr.com/photos/vladimir_buynevich/44591761055/in/photolist-2aWqr1t-chDnLq-6xYn1E-JDsvSL-thSdC-thS5C-Gsbgz-6tFt7J-bEmULN-Gs6wm-3yMVYz-bTgBWv-potN4T-25327-tpkme-6fr1rW-9fyGQa-QbwxaE-Nyht1i-2aVLoT8-5MGdP4-Qbwsq9-98AjSS-3yMWgV-dAAtM-Gsbf4-rctqZD-2aVEMeH-2hg9tBH-2hg6REY-2hg6Rq9-hb13Bm-7PchWo-7PchPm-2hg6Rke-pEYmPr-VMbAh5-2hg8weH-dAB2T-2hg95hW-29xS6LA-2aVEQYg-2cn5GMB-NycS16-2be4gU1-2ceSZCC-zwaAGg-2aVEcWv-2hg6S6n-2hg9w41)  |
+| vampire-bat.jpg  | https://www.bbc.com/news/science-environment-43112650  |
+| black-pitohui.jpg  | https://www.flickr.com/photos/nikborrow/28412269747/in/album-72157676757379802/  |
 |   |   |
 |   |   |
 
