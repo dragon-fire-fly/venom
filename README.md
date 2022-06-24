@@ -108,6 +108,11 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | scorpion-card-img.jpg  | [flickr](https://www.flickr.com/photos/chrisparker2012/14963313385/in/photolist-oNfTKP-5JVpy8-5dopgR-bWMEtu-4DYihH-D8oR9-6xRgst-8htzm-7wG4x9-ZTufC-efhEng-uBPzkm-xunh7H-6DBAoz-2frJ1-nRWAES-cqB18C-a4FTn8-2w4rrh-6hQRqp-cQx6tC-NUNX2-pZsAsW-afaRg7-8kC5Zv-faDskc-4N1rvT-6DBCZX-26Tdyh-p5LEF5-NKokB-oNh3Qz-mw6fyH-p5LEAA-8kFhds-NJE6g-bkfF1g-bdDuii-pKdVjE-6W6BQ-7BELQ-4JaYWe-oFZnw2-c6z5D-cdJEPb-cdJFE9-cdJFYA-dmdTM5-2ZSD2W-NB4LVs)  |
 | bee-card-img.jpg  | https://www.pexels.com/photo/macro-shot-of-a-bee-pollinating-on-a-flower-4228413/  |
 | coral-card-img.jpeg  | https://www.pexels.com/photo/fishes-near-coral-reef-3468655/  |
+| stonefish-img.jpg  | [flickr](https://www.flickr.com/photos/walkn/3192312691/in/photolist-5S6rkZ-Nqsdv8-wsfjy-FsbPF-q935KP-2wRV3o-5sykjk-9ccbEi-9cffgq-9ccckc-5eMHX3-4MmXRg-AQQRE-8qNqGw-gc7vkZ-9S6xf6-2mG7iLQ-arVgGU-8dbZUg-6yzvmu-9S9tfC-68Ha4L-RsBbN5-iY8qgf-4LbuCA-e9HFf9-7gUfQo-7gQj5H-4zEcSC-9ytoDr-2RrTf-5V1S3w-RsB4NU-S3hsgD-2ccTvW5-bkxjWT-cgrXko-6jsud4-4L6XDT-arSCUa-riRt6z-7pTHKA-FDuS9N-6xSP59-9cYidg-26pNsDS-27vDwxp-37tUAv-bu5K35-2jY3UZY)  |
+| stingray-img.jpeg  | https://www.pexels.com/photo/close-up-shot-of-a-stingray-8837892/  |
+| pufferfish-img.jpg  | [flickr](https://www.flickr.com/photos/scattered/26963773151/in/photolist-H5Gomx-akVosY-8WoeRq-8r41sp-aCQMb7-Pr7Sj5-7pTEss-4KtsNr-BS42F-aWKeZ8-aWKaFv-agGchV-3VPJiX-7qPjTR-7qTkm3-7qTmeh-7qTkKd-7qPnQT-7qTca9-7qTjm9-7qPmd4-7qThSo-3VU6cy-3VU9BS-akVs5f-29RGefW-3a32Nq-9nr6SW-s9wa4R-5zMMYV-3VPM6c-93XGGL-dyLx83-7qTeY1-7qTimC-u1nw8-7qPkuV-7qPjqH-27Stm9o-7qTdgw-66oh6r-3VPXjD-7qTdTL-7qPoPM-9tu4p7-HSwnCM-7qTcMm-9AV2Zg-7qPiqP-6BV3ZE)  |
+| lionfish-img.webp  | https://www.pexels.com/photo/close-up-shot-of-a-lionfish-8856049/  |
+|   |   |
 |   |   |
 |   |   |
 |   |   |

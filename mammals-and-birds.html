@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head element -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informative website about venomous and poisonous animals">
+    <meta name="keywords" content="venom, venomous animals, poison, poisonous animals">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Mammals and Birds</title>
+
+</head>
+
+<!-- Body element -->
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Love Venom</h1>
+        </a>
+        <!-- Nav bar -->
+        <nav>
+            <div class="nav_menu" id="navTop">
+                <a href="index.html">Home</a>
+                <a href="vertebrates.html">Vertebrates</a>
+                <a href="invertebrates.html">Invertebrates</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </nav>
+    </header>
+
+    <!-- Specific page content -->
+    <main>
+        <section class="local-nav">
+            <a href="index.html">Home</a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a href="vertebrates.html">Vertebrates</a>
+            <i class="fa-solid fa-angle-right"></i>
+            Mammals and Birds
+
+        </section>
+        <section class="page-intro">
+            <h2>Mammals and Birds</h2>
+            <p>Introduction section providing details generally about the class of animal</p>
+        </section>
+        <section>
+            <div class="grid-container-info-page animal-text-containers">
+                <div class="animal-one">
+                    <img class="animal-photos animal-one" src="assets/images/shrew-img.jpg" alt="A photo of a shrew">
+                </div>
+                <div class="animal-one-text-container">
+                    <h3>Shrews</h3>
+                    Text for shrews
+                </div>
+                <div class="animal-two">
+                    <img class="animal-photos animal-two" src="assets/images/slow-loris-img.jpg"
+                        alt="A photo of a slow-loris">
+                </div>
+                <div class="animal-two-text-container">
+                    <h3>Slow Loris</h3>
+                    Text for slow loris
+                </div>
+                <div class="animal-three">
+                    <img class="animal-photos animal-three" src="assets/images/vampire-bat.jpg"
+                        alt="A photo of a vampire bat flying">
+                </div>
+                <div class="animal-three-text-container">
+                    <h3>Vampire Bats</h3>
+                    Text for vampire bats
+                </div>
+                <div class="animal-four">
+                    <img class="animal-photos animal-four" src="assets/images/black-pitohui.jpg"
+                        alt="A photo of black pitohui bird">
+                </div>
+                <div class="animal-four-text-container">
+                    <h3>Pitohuis</h3>
+                    Text for pitohuis
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-img">
+            <div class="footer-div footer-img-large-screens">
+                <div class="social-networks">
+                    Catch us on the web:
+                    <ul>
+                        <li>
+                            <a href="https://facebook.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank" rel="noopener"
+                                aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+
+                    <div class="back-to-top">
+                        <a href="#top"><i class="fa-solid fa-angles-up"></i> Back to top</a>
+                    </div>
+
+                    <p>Address</p>
+                    <p>123 Venom Street</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Javascript for the navigation bar on smaller screens-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navTop");
+            if (x.className === "nav_menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav_menu";
+            }
+        }
+    </script>
+
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/4a9fb983cf.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
