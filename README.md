@@ -96,7 +96,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | true-spider-on-leaf.jpeg  | https://www.pexels.com/photo/spider-on-green-leaf-8088890/  |
 | jumping-spider-square-img.jpeg  | https://www.pexels.com/photo/hairy-red-and-gray-jumping-spider-on-green-surface-7817534/  |
 | theraphosid-img.jpg  | [flickr](https://www.flickr.com/photos/29320962@N07/4218592137/in/photolist-7qMotc-7ne3My-4CSvyU-RSyKHb-7L1cLe-2gNPGDJ-2n7Wrx6-C7c9r-9fBtmV-7sivQT-2hvdihX-7q2jdi-k5TYkn-7L1isx-5jiWHy-9jKbVA-8RkaT2-7mmKfC-8UNTny-6RuQH-7X2bxu-4mMGV-7JzeqP-eutk85-fqZvqx-4nxobV-5zECJi-26BV8FW-tc6wg-6wiM6M-tvHsAP-bT49Dz-N44iyh-5hNwEy-FDfBr-9eaaWe-eCovGd-2bqJrh-6mycVg-754ESV-2bmbbV-3VugC-eCovP9-58Q5QW-8vVdQu-2bqF31-cNxtNh-71iMs-eCovWm-BBW7dV)  |
-| forest-scorpion-img.jpg  | [flickr](https://www.flickr.com/photos/chrisparker2012/14963313385/in/photolist-oNfTKP-5JVpy8-5dopgR-bWMEtu-4DYihH-D8oR9-6xRgst-8htzm-7wG4x9-ZTufC-efhEng-uBPzkm-xunh7H-6DBAoz-2frJ1-nRWAES-cqB18C-a4FTn8-2w4rrh-6hQRqp-cQx6tC-NUNX2-pZsAsW-afaRg7-8kC5Zv-faDskc-4N1rvT-6DBCZX-26Tdyh-p5LEF5-NKokB-oNh3Qz-mw6fyH-p5LEAA-8kFhds-NJE6g-bkfF1g-bdDuii-pKdVjE-6W6BQ-7BELQ-4JaYWe-oFZnw2-c6z5D-cdJEPb-cdJFE9-cdJFYA-dmdTM5-2ZSD2W-NB4LVs)  |
+| red-scorpion-img.jpg  | https://www.flickr.com/photos/140666422@N04/26158625453/in/gallery-191538957@N07-72157719710468592/  |
 | buthid-scorpion-img.jpg  | https://www.flickr.com/photos/88896512@N03/9621847695/in/gallery-191538957@N07-72157719710468592/  |
 | uv-light-scorpion-img.jpg  | https://www.flickr.com/photos/88896512@N03/9621844341/  |
 | vinegaroon-img.jpg  | https://www.flickr.com/photos/88896512@N03/9625084816/  |
@@ -104,6 +104,10 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | poison-dart-frog-portrait-img.jpeg  | https://www.pexels.com/photo/orange-and-black-frog-674318/  |
 | puffer-fish-puffed-img.jpg  | https://www.pexels.com/photo/puffer-fish-in-aquarium-9004430/  |
 | slow-loris-portrait-img.jpg  | https://www.flickr.com/photos/wcdumonts/11592374646/in/gallery-zoologyboy-72157690380234281/  |
+| garden-spider-web-img.webp  | https://www.pexels.com/photo/small-araneus-diadematus-spider-on-thin-web-5675644/  |
+| scorpion-card-img.jpg  | [flickr](https://www.flickr.com/photos/chrisparker2012/14963313385/in/photolist-oNfTKP-5JVpy8-5dopgR-bWMEtu-4DYihH-D8oR9-6xRgst-8htzm-7wG4x9-ZTufC-efhEng-uBPzkm-xunh7H-6DBAoz-2frJ1-nRWAES-cqB18C-a4FTn8-2w4rrh-6hQRqp-cQx6tC-NUNX2-pZsAsW-afaRg7-8kC5Zv-faDskc-4N1rvT-6DBCZX-26Tdyh-p5LEF5-NKokB-oNh3Qz-mw6fyH-p5LEAA-8kFhds-NJE6g-bkfF1g-bdDuii-pKdVjE-6W6BQ-7BELQ-4JaYWe-oFZnw2-c6z5D-cdJEPb-cdJFE9-cdJFYA-dmdTM5-2ZSD2W-NB4LVs)  |
+| bee-card-img.jpg  | https://www.pexels.com/photo/macro-shot-of-a-bee-pollinating-on-a-flower-4228413/  |
+| coral-card-img.jpeg  | https://www.pexels.com/photo/fishes-near-coral-reef-3468655/  |
 |   |   |
 |   |   |
 |   |   |

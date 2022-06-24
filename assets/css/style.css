@@ -183,8 +183,8 @@ footer {
 /* Vertebrate and invertebrate intermediate pages*/
 .grid-container-intermediate-page {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat( 4,1fr);
 }
 
 .grid-container-intermediate-page a {
@@ -207,10 +207,6 @@ footer {
     max-height: 100%;
     max-width: 2fr;
 }
-#reptiles-button {
-    width:100%;
-    max-width: 100%;
-}
 
 .intermediate-photo-two {
 
@@ -221,10 +217,6 @@ footer {
     grid-row-start: 2;
     grid-row-end: span 1;
     background-color: #DDE7C7;
-}
-#amphibians-button{
-    width: 100%;
-    max-width: 100%;
 }
 
 .intermediate-photo-three {
@@ -238,11 +230,6 @@ footer {
     grid-row-end: span 1;
     background-color: #DDE7C7;
 }
-#fish-button {
-    width: 100%;
-    max-width: 100%;
-    height: 92%;
-}
 
 .intermediate-photo-four {
     width: 100%;
@@ -255,7 +242,9 @@ footer {
     grid-row-end: span 1;
     background-color: #DDE7C7;
 }
-#slow-loris-button {
+
+.animal-cards{
+    width: 100%;
     max-width: 100%;
 }
 
@@ -389,14 +378,14 @@ footer {
     /* .footer {
 
     } */
-    .footer-div {
-        /* display: grid;
+    /*.footer-div {
+     display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr; */
+        grid-template-rows: 1fr 1fr 1fr;
         /* height: 570px;
         width: 100%;
-        background-color: #0282a5; */
-    }    
+        background-color: #0282a5; 
+    }    */
     .footer-img-large-screens {
         background: url(../images/footer-spider-narrow.jpg) no-repeat right bottom;
         background-size: auto;
@@ -455,31 +444,31 @@ footer {
     /* Intermediate page media queries */
     .grid-container-intermediate-page {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(19,1fr);
         grid-template-rows: 50px 6fr 1fr;
     }
     .intermediate-photo-one {
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-start: 3;
+        grid-column-end: span 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }
     .intermediate-photo-two {
-        grid-column-start: 5;
-        grid-column-end: 7;
+        grid-column-start: 7;
+        grid-column-end: span 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }
 
     .intermediate-photo-three {
-        grid-column-start: 8;
-        grid-column-end: 10;
+        grid-column-start: 11;
+        grid-column-end: span 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }
     .intermediate-photo-four {
-        grid-column-start: 11;
-        grid-column-end: 13;
+        grid-column-start: 15;
+        grid-column-end: span 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }

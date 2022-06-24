@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head element -->
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +14,15 @@
     <title>Invertebrates</title>
 
 </head>
+<!-- Body element -->
 
 <body>
+    <!-- Header -->
     <header>
         <a href="index.html">
             <h1>Love Venom</h1>
         </a>
+        <!-- Nav bar -->
         <nav>
             <div class="nav_menu" id="navTop">
                 <a href="index.html">Home</a>
@@ -30,19 +34,45 @@
                 </a>
         </nav>
     </header>
-    
+    <!-- Specific page content -->
     <main>
+        <section class="local-nav">
+            <a href="index.html">Home</a>
+            <i class="fa-solid fa-angle-right"></i>
+            Invertebrates
+
+        </section>
         <section>
             <h2>Invertebrates</h2>
-            <a href="spiders.html">Spiders</a>
-            <a href="scorpions.html">Scorpions</a>
-            <a href="#">Insects and Other Arthropods</a>
-            <a href="#">Marine Invertebrates</a>
+            <div class="grid-container-intermediate-page">
+                <div class="intermediate-photo-one">
+                    <a href="spiders.html"><img src="assets/images/garden-spider-web-img.webp"
+                            alt="photo of a garden spider in a web" class="animal-cards">Spiders</a>
+
+                </div>
+                <div class="intermediate-photo-two">
+                    <a href="scorpions.html"><img src="assets/images/scorpion-card-img.jpg"
+                            alt="photo of a black scoprion" class="animal-cards">Scorpions</a>
+
+                </div>
+                <div class="intermediate-photo-three">
+                    <a href="#"><img src="assets/images/bee-card-img.jpg"
+                            alt="photo of a bee pollinating a purple flower" class="animal-cards" id="bee-card">Insects
+                        and other Arthropods</a>
+
+                </div>
+                <div class="intermediate-photo-four">
+                    <a href="#"><img src="assets/images/coral-card-img.jpeg" alt="photo of a coral reef underwater"
+                            class="animal-cards">Marine Invertebrates</a>
+
+                </div>
+
+            </div>
 
         </section>
     </main>
-
-    <footer >
+    <!-- Footer -->
+    <footer>
         <div class="footer-img">
             <div class="footer-div footer-img-large-screens">
                 <div class="social-networks">
@@ -77,8 +107,6 @@
 
     </footer>
 
-
-
     <!-- Javascript for the navigation bar on smaller screens-->
     <script>
         function myFunction() {
@@ -90,9 +118,6 @@
             }
         }
     </script>
-
-
-
 
 
     <!-- font awesome script-->
