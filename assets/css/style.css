@@ -53,7 +53,7 @@ nav {
     color: black;
     font-size: 120%;
     text-decoration: none;
-    padding: 0px 30px 0px 30px;
+    padding: 0 3vw;
 }
 
 .nav_menu a:hover {
@@ -353,23 +353,74 @@ footer {
 }
 
 
-#contact-page-div {
+.contact-page-div {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     height: 1000px;
     width: 100%;
 }
 
-#contact-h2 {
-    color: white;
+.feedback-form>h3 {
+    text-align: center;
 }
-
 
 .feedback-form {
-    color: white;
+    /* color: white; */
+    grid-column-start: 3;
+    grid-column-end: -3;
+    grid-row-start: 2;
+    grid-row-end: -2;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10%;
+    font-weight: 600;
 }
 
+.text-input {
+    width: 100%;
+    margin: 10px 0 25px 0;
+    border: 1px solid black;
+}
+
+.submit-button {
+    background-color: #DDE7C7;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 10px;
+    display: block;
+    border: outset;
+}
+
+.submit-button:hover {
+    background-color: black;
+    color: #DDE7C7;
+
+}
+
+#comment {
+    height: 100px
+}
+
+.contact-info {
+    grid-column-start: 3;
+    grid-column-end: -3;
+    grid-row-start: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15%;
+    font-weight: 600;
+    padding: 50px 30px;
+
+}
+
+.contact-info strong {
+    font-weight: 1000;
+}
+
+.map {
+    width: 100%;
+    height: 250px;
+}
 /* Confirmation page */
 .confirmation-section {
     background: url(../images/frog-eye-img.jpeg) center center;
@@ -559,6 +610,12 @@ footer {
         grid-row-end: 5;
         text-align: center;
     }
+
+    /* Contact page media queries */
+    .feedback-form {
+        grid-column-start: 2;
+        grid-column-end: 6;
+    }
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
@@ -569,6 +626,10 @@ footer {
 @media screen and (max-width: 600px) {
     .nav_menu a:not(:first-child) {
         display: none;
+    }
+
+    nav {
+        text-align: left;
     }
 
     .nav_menu a.icon {
