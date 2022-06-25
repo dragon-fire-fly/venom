@@ -347,6 +347,11 @@ footer {
 }
 
 /* Contact page */
+.contact-section{
+    background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 #contact-page-div {
     display: grid;
@@ -356,18 +361,39 @@ footer {
     width: 100%;
 }
 
-#contact-page-img {
-    background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-row-start: 1;
-    grid-row-end: -1;
-    background-size: cover;
-
+#contact-h2 {
+    color: white;
 }
+
 
 .feedback-form {
     color: white;
+}
+
+/* Confirmation page */
+.confirmation-section {
+    background: url(../images/frog-eye-img.jpeg) center center;
+    background-size: cover;
+}
+
+.confirmation-div {
+    height:800px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#thank-you {
+    grid-column-start: 3;
+    grid-column-end: -3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
 }
 
 
