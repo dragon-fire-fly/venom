@@ -301,6 +301,7 @@ footer {
     grid-row-end: 3;
 }
 
+
 .animal-two {
     grid-column-start: 2;
     grid-column-end: 12;
@@ -351,7 +352,7 @@ footer {
 }
 
 .extra-species ul li{
-    padding-left: 40px;
+    margin-left: 2rem;
     list-style-type: circle;
 
 }
@@ -494,8 +495,8 @@ footer {
     /* index.html media queries */
     .grid-container-info-page {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 75px 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .main-photo-one {
