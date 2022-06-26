@@ -346,6 +346,16 @@ footer {
     text-align: center;
 }
 
+.text-container p{
+    padding: 5px;
+}
+
+.extra-species ul li{
+    padding-left: 40px;
+    list-style-type: circle;
+
+}
+
 /* Contact page */
 .contact-section{
     background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
