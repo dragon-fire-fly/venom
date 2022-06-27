@@ -78,7 +78,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 1fr 2fr 50px;
+    grid-template-rows: repeat(6, 1fr);
 
 }
 
@@ -86,23 +86,29 @@ footer {
     background: url(../images/footer-spider-narrow.jpg) no-repeat right bottom;
     background-size: auto;
     background-attachment: fixed;
-
 }
 
 .social-networks {
-    text-align: left;
+    text-align: center;
     margin: 0;
+    padding: 30px 0;
     grid-column-start: 1;
     grid-column-end: span 2;
     grid-row-start: 2;
-    grid-row-end: span 1;
+    grid-row-end: span 2;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.social-networks p {
+    font-size: 110%;
+    font-weight: 600;
+    padding: 30px;
 }
 
 .social-networks li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 0;
     font-size: 200%;
     color: black;
@@ -121,11 +127,12 @@ footer {
     color: black;
     text-decoration: none;
     text-align: center;
+    font-size: 120%;
 }
 
 /* Style fontawesome social media links */
 .fa-brands {
-    font-size: 200%;
+    font-size: 100%;
     color: #02789e;
 }
 
@@ -288,8 +295,9 @@ footer {
 
 .grid-container-info-page {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 15px repeat(4, minmax(100, auto) auto) 15px;
+    row-gap: 10px;
     align-items: center;
 }
 
@@ -432,11 +440,6 @@ footer {
     height: 100px
 }
 
-/* .contact-info-container {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-} */
 .contact-info {
     grid-column-start: 3;
     grid-column-end: -3;
@@ -506,17 +509,6 @@ footer {
 @media screen and (min-width: 950px) {
 
     /* Footer media queries */
-    /* .footer {
-
-    } */
-    /*.footer-div {
-     display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        /* height: 570px;
-        width: 100%;
-        background-color: #0282a5; 
-    }    */
     .footer-img-large-screens {
         background: url(../images/footer-spider-narrow.jpg) no-repeat right bottom;
         background-size: auto;
@@ -524,18 +516,29 @@ footer {
     }
 
     .social-networks {
-        text-align: left;
         margin: 0;
         grid-column-start: 1;
         grid-column-end: span 2;
-        grid-row-start: 2;
-        grid-row-end: span 2;
-        background-color: rgba(42, 174, 207, 0.8);
+        grid-row-start: 3;
+        grid-row-end: span 3;
+        background-color: rgba(42, 174, 207, 0.9);
+    }
+
+    .social-networks p {
+        font-size: 150%;
+        padding: 20px;
+    }
+
+    /* Style fontawesome social media links */
+    .fa-brands {
+        font-size: 150%;
+        color: #02789e;
+        padding: 20px;
     }
 
 
     /* index.html media queries */
-    .intro-text{
+    .intro-text {
         grid-column-start: 2;
         grid-column-end: -2;
         grid-row-start: 1;
