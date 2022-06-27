@@ -15,10 +15,6 @@ body {
     margin: 0 auto;
 }
 
-.white-text {
-    color: white;
-}
-
 /* Header and nav */
 header {
     width: 100%;
@@ -371,9 +367,12 @@ footer {
 .contact-page-div {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows:  15px auto 15px auto 15px 30px auto;
     height: 1000px;
     width: 100%;
+}
+.contact-page-div h2 {
+    font-size: 150%;
 }
 
 .feedback-form>h3 {
@@ -384,7 +383,7 @@ footer {
     grid-column-start: 3;
     grid-column-end: -3;
     grid-row-start: 2;
-    grid-row-end: -2;
+    grid-row-end: 3;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 10%;
@@ -416,16 +415,16 @@ footer {
     height: 100px
 }
 
-.contact-info-container {
+/* .contact-info-container {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-}
+} */
 .contact-info {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2; 
+    grid-column-start: 3;
+    grid-column-end: -3;
+    grid-row-start: 4;
+    grid-row-end: 5; 
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15%;
     font-weight: 600;
@@ -436,12 +435,23 @@ footer {
     font-weight: 1000;
 }
 
-/* .map-container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-} */
 
+.white-map-text {
+    grid-column-start: 3;
+    grid-column-end: -1;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    color: white;
+}
+.map-container {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+}
 .map {
+    /* grid */
     width: 100%;
     height: 250px;
 }
@@ -636,10 +646,85 @@ footer {
     }
 
     /* Contact page media queries */
+    .contact-page-div {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+    }
+    .contact-page-div h2 {
+        font-size: 180%;
+    }
+    
     .feedback-form {
         grid-column-start: 2;
-        grid-column-end: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: -4;
     }
+
+    .contact-info {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        grid-row-start: 3;
+        grid-row-end: span 1;
+    }
+
+    .white-map-text {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        grid-row-start: 5;
+        grid-row-end: span 1;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .map-container {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        grid-row-start: 6;
+        grid-row-end: span 1;
+        height:auto;
+    }
+
+}
+
+@media screen and (min-width: 1360px){
+        /* Contact page media queries */
+        .contact-page-div {
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+        }
+        .contact-page-div h2 {
+            font-size: 200%;
+        }
+        .feedback-form {
+            grid-column-start: 3;
+            grid-column-end: 7;
+            grid-row-start: 2;
+            grid-row-end: -4;
+        }
+    
+        .contact-info {
+            grid-column-start: 8;
+            grid-column-end: 10;
+            grid-row-start: 3;
+            grid-row-end: span 1;
+        }
+    
+        .white-map-text {
+            grid-column-start: 8;
+            grid-column-end: 10;
+            grid-row-start: 5;
+            grid-row-end: span 1;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .map-container {
+            grid-column-start: 8;
+            grid-column-end: 11;
+            grid-row-start: 6;
+            grid-row-end: span 1;
+            height:auto;
+        }
+    
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
