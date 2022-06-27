@@ -24,7 +24,7 @@
         </a>
         <!-- Nav bar -->
         <nav>
-            <div class="nav_menu" id="navTop">
+            <div class="nav-menu" id="navTop">
                 <a href="index.html" class="active">Home</a>
                 <a href="vertebrates.html">Vertebrates</a>
                 <a href="invertebrates.html">Invertebrates</a>
@@ -37,7 +37,8 @@
     <!-- Main content -->
     <main>
         <section>
-            <div>
+            <div class="grid-container-main">
+                <div class="intro-text">
                 <p>
                     Welcome to Love Venom. This website is designed to provide factual information about a variety of
                     venomous animals.
@@ -46,7 +47,7 @@
                     Please click on the type of venomous animal you would like to learn about first.
                 </p>
             </div>
-            <div class="grid-container-main">
+            <!-- <div class="grid-container-main"> -->
                 <div class="main-photo-one">
                     <a href="vertebrates.html" id="vertebrate-label"><img id="main-toad"
                             src="assets/images/toad-main-img.jpeg"
@@ -101,10 +102,10 @@
     <script>
         function myFunction() {
             var x = document.getElementById("navTop");
-            if (x.className === "nav_menu") {
+            if (x.className === "nav-menu") {
                 x.className += " responsive";
             } else {
-                x.className = "nav_menu";
+                x.className = "nav-menu";
             }
         }
     </script>

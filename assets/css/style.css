@@ -47,7 +47,7 @@ nav {
     padding: 15px;
 }
 
-.nav_menu a {
+.nav-menu a {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 300;
     color: black;
@@ -56,7 +56,7 @@ nav {
     padding: 0 3vw;
 }
 
-.nav_menu a:hover {
+.nav-menu a:hover {
     border-bottom: 2px solid black;
 }
 
@@ -79,8 +79,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 50px 1fr 2fr 50px;
-    
-} 
+
+}
 
 .footer-img {
     background: url(../images/footer-spider-narrow.jpg) no-repeat right bottom;
@@ -96,7 +96,7 @@ footer {
     grid-column-end: span 2;
     grid-row-start: 2;
     grid-row-end: span 1;
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .social-networks li {
@@ -123,11 +123,26 @@ footer {
     text-align: center;
 }
 
+/* Style fontawesome social media links */
+.fa-brands {
+    font-size: 200%;
+    color: #02789e;
+}
+
 /* Main body index.html */
 .grid-container-main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto repeat(2, 1fr) 100px;
+}
+
+.intro-text {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    padding: 30px 0;
+    text-align: center;
 }
 
 .main-photo-one {
@@ -137,7 +152,7 @@ footer {
     text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: span 1;
     background-color: #DDE7C7;
 }
@@ -158,7 +173,7 @@ footer {
     text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
-    grid-row-start: 2;
+    grid-row-start: 3;
     grid-row-end: span 1;
     background-color: #DDE7C7;
 }
@@ -184,7 +199,7 @@ footer {
 .grid-container-intermediate-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat( 4,1fr);
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .grid-container-intermediate-page a {
@@ -243,7 +258,7 @@ footer {
     background-color: #DDE7C7;
 }
 
-.animal-cards{
+.animal-cards {
     width: 100%;
     max-width: 100%;
 }
@@ -252,13 +267,14 @@ footer {
 .local-nav {
     padding: 20px;
     font-weight: 500;
-    font-size: 110%; 
+    font-size: 110%;
 }
+
 .local-nav a {
     font-size: 110%;
     text-decoration: none;
     color: black;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 .local-nav a:hover {
@@ -347,18 +363,18 @@ footer {
     text-align: center;
 }
 
-.text-container p{
+.text-container p {
     padding: 5px;
 }
 
-.extra-species ul li{
+.extra-species ul li {
     margin-left: 2rem;
     list-style-type: circle;
 
 }
 
 /* Contact page */
-.contact-section{
+.contact-section {
     background: url(../images/contact-cobweb-img.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -367,10 +383,11 @@ footer {
 .contact-page-div {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:  15px auto 15px auto 15px 30px auto;
+    grid-template-rows: 15px auto 15px auto 15px 30px auto;
     height: 1000px;
     width: 100%;
 }
+
 .contact-page-div h2 {
     font-size: 150%;
 }
@@ -394,7 +411,7 @@ footer {
     width: 100%;
     margin: 10px 0 25px 0;
     border: 1px solid black;
-    height:25px;
+    height: 25px;
 }
 
 .submit-button {
@@ -424,7 +441,7 @@ footer {
     grid-column-start: 3;
     grid-column-end: -3;
     grid-row-start: 4;
-    grid-row-end: 5; 
+    grid-row-end: 5;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15%;
     font-weight: 600;
@@ -443,6 +460,7 @@ footer {
     grid-row-end: 7;
     color: white;
 }
+
 .map-container {
     grid-column-start: 1;
     grid-column-end: -1;
@@ -450,11 +468,13 @@ footer {
     grid-row-end: 8;
 
 }
+
 .map {
     /* grid */
     width: 100%;
     height: 250px;
 }
+
 /* Confirmation page */
 .confirmation-section {
     background: url(../images/frog-eye-img.jpeg) center center;
@@ -462,8 +482,8 @@ footer {
 }
 
 .confirmation-div {
-    height:800px;
-    width:100%;
+    height: 800px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -514,12 +534,12 @@ footer {
     }
 
 
-
     /* index.html media queries */
-    .grid-container-info-page {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+    .intro-text{
+        grid-column-start: 2;
+        grid-column-end: -2;
+        grid-row-start: 1;
+        grid-row-end: span 1;
     }
 
     .main-photo-one {
@@ -527,7 +547,7 @@ footer {
         text-align: center;
         grid-column-start: 2;
         grid-column-end: 7;
-        grid-row-start: 1;
+        grid-row-start: 2;
         grid-row-end: span 2;
     }
 
@@ -542,7 +562,7 @@ footer {
         text-align: center;
         grid-column-start: 8;
         grid-column-end: 12;
-        grid-row-start: 1;
+        grid-row-start: 2;
         grid-row-end: span 2;
     }
 
@@ -555,15 +575,17 @@ footer {
     /* Intermediate page media queries */
     .grid-container-intermediate-page {
         display: grid;
-        grid-template-columns: repeat(19,1fr);
+        grid-template-columns: repeat(19, 1fr);
         grid-template-rows: 50px 6fr 1fr;
     }
+
     .intermediate-photo-one {
         grid-column-start: 3;
         grid-column-end: span 3;
         grid-row-start: 2;
         grid-row-end: 3;
     }
+
     .intermediate-photo-two {
         grid-column-start: 7;
         grid-column-end: span 3;
@@ -577,6 +599,7 @@ footer {
         grid-row-start: 2;
         grid-row-end: 3;
     }
+
     .intermediate-photo-four {
         grid-column-start: 15;
         grid-column-end: span 3;
@@ -585,6 +608,12 @@ footer {
     }
 
     /* Information page media queries*/
+    .grid-container-info-page {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
     .animal-one {
         grid-column-start: 2;
         grid-column-end: 7;
@@ -651,10 +680,11 @@ footer {
         grid-template-columns: repeat(11, 1fr);
         grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
     }
+
     .contact-page-div h2 {
         font-size: 180%;
     }
-    
+
     .feedback-form {
         grid-column-start: 2;
         grid-column-end: 7;
@@ -674,66 +704,71 @@ footer {
         grid-column-end: 11;
         grid-row-start: 5;
         grid-row-end: span 1;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 0, 0, 0.5);
     }
+
     .map-container {
         grid-column-start: 8;
         grid-column-end: 11;
         grid-row-start: 6;
         grid-row-end: span 1;
-        height:auto;
+        height: auto;
     }
 
 }
 
-@media screen and (min-width: 1360px){
-        /* Contact page media queries */
-        .contact-page-div {
-            display: grid;
-            grid-template-columns: repeat(11, 1fr);
-            grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
-        }
-        .contact-page-div h2 {
-            font-size: 200%;
-        }
-        .feedback-form {
-            grid-column-start: 3;
-            grid-column-end: 7;
-            grid-row-start: 2;
-            grid-row-end: -4;
-        }
-    
-        .contact-info {
-            grid-column-start: 8;
-            grid-column-end: 10;
-            grid-row-start: 3;
-            grid-row-end: span 1;
-        }
-    
-        .white-map-text {
-            grid-column-start: 8;
-            grid-column-end: 10;
-            grid-row-start: 5;
-            grid-row-end: span 1;
-            background-color: rgba(0,0,0,0.5);
-        }
-        .map-container {
-            grid-column-start: 8;
-            grid-column-end: 11;
-            grid-row-start: 6;
-            grid-row-end: span 1;
-            height:auto;
-        }
-    
+@media screen and (min-width: 1360px) {
+
+    /* Contact page media queries */
+    .contact-page-div {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+    }
+
+    .contact-page-div h2 {
+        font-size: 200%;
+    }
+
+    .feedback-form {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: -4;
+    }
+
+    .contact-info {
+        grid-column-start: 8;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: span 1;
+    }
+
+    .white-map-text {
+        grid-column-start: 8;
+        grid-column-end: 10;
+        grid-row-start: 5;
+        grid-row-end: span 1;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .map-container {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        grid-row-start: 6;
+        grid-row-end: span 1;
+        height: auto;
+    }
+
 }
 
 /* nav menu responsive java bar - everything below adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-.nav_menu .icon {
+.nav-menu .icon {
     display: none;
 }
 
 @media screen and (max-width: 600px) {
-    .nav_menu a:not(:first-child) {
+    .nav-menu a:not(:first-child) {
         display: none;
     }
 
@@ -741,24 +776,24 @@ footer {
         text-align: left;
     }
 
-    .nav_menu a.icon {
+    .nav-menu a.icon {
         float: right;
         display: block;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .nav_menu.responsive {
+    .nav-menu.responsive {
         position: relative;
     }
 
-    .nav_menu.responsive .icon {
+    .nav-menu.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .nav_menu.responsive a {
+    .nav-menu.responsive a {
         float: none;
         display: block;
         text-align: left;
