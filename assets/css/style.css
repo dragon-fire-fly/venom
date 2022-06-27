@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
 }
 
+.white-text {
+    color: white;
+}
+
 /* Header and nav */
 header {
     width: 100%;
@@ -377,7 +381,6 @@ footer {
 }
 
 .feedback-form {
-    /* color: white; */
     grid-column-start: 3;
     grid-column-end: -3;
     grid-row-start: 2;
@@ -392,6 +395,7 @@ footer {
     width: 100%;
     margin: 10px 0 25px 0;
     border: 1px solid black;
+    height:25px;
 }
 
 .submit-button {
@@ -406,27 +410,36 @@ footer {
 .submit-button:hover {
     background-color: black;
     color: #DDE7C7;
-
 }
 
 #comment {
     height: 100px
 }
 
+.contact-info-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
 .contact-info {
-    grid-column-start: 3;
-    grid-column-end: -3;
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
+    grid-row-end: 2; 
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 15%;
     font-weight: 600;
     padding: 50px 30px;
-
 }
 
 .contact-info strong {
     font-weight: 1000;
 }
+
+/* .map-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+} */
 
 .map {
     width: 100%;

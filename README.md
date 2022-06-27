@@ -92,8 +92,8 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | poison-dart-frog-right.jpeg  | https://www.pexels.com/photo/nature-macro-wildlife-frog-3180748/  |
 | salamander-img.jpg  | https://commons.wikimedia.org/w/index.php?curid=1040324  |
 | bufo-bufo-img.jpg  | https://commons.wikimedia.org/w/index.php?curid=73992756  |
-| true-spider-in-web.jpeg  | https://www.pexels.com/photo/spider-3660656/  |
-| true-spider-on-leaf.jpeg  | https://www.pexels.com/photo/spider-on-green-leaf-8088890/  |
+| black-widow-landscape-img | [flickr](https://www.flickr.com/photos/toccia/4880912598/in/photolist-8riXgu-h1n8jL-fVDBuX-rwDSXs-7bwfoF-sZiAQF-aEj18q-rbadVe-phPSwB-924wY9-piKHzA-a1Bm9r-9Znusf-aa6TXG-a5hdGH-qSqApK-55gpXf-v7MH9L-88yeyp-f7E9eV-MnFnjR-UvTZWW-6KfJX5-v7MXc3-6w8wtg-LctnGq-6Y1gHK-MGvCtU-eVua4L-cPsBus-7FeXuc-6TCLiu-2b2eQMD-rFx9QP-7KxNuf-bkqGB2-5uWLQD-8dy4t6-fVn7kr-8UkKe3-prZbJ2-6EvE7p-7NZFfX-8D7Rar-5uWQFi-Df59Rv-LoMcQK-nbUtis-5VpYso-TJ2vT5)  |
+| brown-recluse-img  | https://www.livescience.com/39996-brown-recluse-spiders.html |
 | jumping-spider-square-img.jpeg  | https://www.pexels.com/photo/hairy-red-and-gray-jumping-spider-on-green-surface-7817534/  |
 | theraphosid-img.jpg  | [flickr](https://www.flickr.com/photos/29320962@N07/4218592137/in/photolist-7qMotc-7ne3My-4CSvyU-RSyKHb-7L1cLe-2gNPGDJ-2n7Wrx6-C7c9r-9fBtmV-7sivQT-2hvdihX-7q2jdi-k5TYkn-7L1isx-5jiWHy-9jKbVA-8RkaT2-7mmKfC-8UNTny-6RuQH-7X2bxu-4mMGV-7JzeqP-eutk85-fqZvqx-4nxobV-5zECJi-26BV8FW-tc6wg-6wiM6M-tvHsAP-bT49Dz-N44iyh-5hNwEy-FDfBr-9eaaWe-eCovGd-2bqJrh-6mycVg-754ESV-2bmbbV-3VugC-eCovP9-58Q5QW-8vVdQu-2bqF31-cNxtNh-71iMs-eCovWm-BBW7dV)  |
 | red-scorpion-img.jpg  | https://www.flickr.com/photos/140666422@N04/26158625453/in/gallery-191538957@N07-72157719710468592/  |
@@ -118,5 +118,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | black-pitohui.jpg  | https://www.flickr.com/photos/nikborrow/28412269747/in/album-72157676757379802/  |
 |   |   |
 |   |   |
+
+<!-- true-spider-in-web.jpeg true-spider-on-leaf.jpeg -->
 
 ### Acknowledgements
