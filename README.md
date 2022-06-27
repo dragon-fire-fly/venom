@@ -1,6 +1,7 @@
 # Love Venom
 ## Overview of project
 ‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
+[am-i-responsive](documentation/testing/am-i-responsive-img.gif)
 
 <!-- Responsive mockup to go here -->
 
@@ -46,11 +47,11 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 <!-- Briefly explain the project here -->
 
 ### Existing Features
-1. Navigation bar
+1. Navigation bar which adapts to mobile devices
 2. Ability to select between vertebrates and invertebrate sections
 3. Individual pages for different types of animals
 4. Footer with social media links
-5. Contact page
+5. Contact page with validation and a confirmation page
 
 ### Features Left to Implement
 1. What is venom? What is the difference between venoms and poisons?
@@ -77,6 +78,8 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 ### Media
 <!-- Images and video credits go here -->
+<details>
+<summary>Image credits for all used images can be found here:</summary>
 
 | Image name  | Source URL  |
 |---|---|
@@ -119,6 +122,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 |   |   |
 |   |   |
 
+</details>
 <!-- true-spider-in-web.jpeg true-spider-on-leaf.jpeg -->
 
 ### Acknowledgements

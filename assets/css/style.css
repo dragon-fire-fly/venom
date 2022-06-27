@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Baskerville:ital@1&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Roboto+Mono&display=swap');
+
+:root {
+    --h1-font: "Berkshire Swash", sans-serif;
+    --h2-font:"Berkshire Swash", sans-serif;
+    --nav-menu-font:"Kosugi Maru", sans-serif;
+    --link-font: "Lobster", sans-serif;
+}
 
 * {
     margin: 0;
@@ -25,17 +32,17 @@ header a {
 }
 
 h1 {
-    font-family: "Libre Baskerville", sans-serif;
+    font-family: var(--h1-font);
     font-weight: 300;
-    font-size: 200%;
+    font-size: 400%;
     color: #126100;
-    padding-left: 30px;
+    text-align: center;
 }
 
 h2 {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: var(--h2-font);
     font-weight: 300;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
     color: black;
     padding: 20px;
@@ -48,10 +55,10 @@ nav {
 }
 
 .nav-menu a {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: var(--nav-menu-font);
     font-weight: 300;
     color: black;
-    font-size: 120%;
+    font-size: 150%;
     text-decoration: none;
     padding: 0 3vw;
 }
@@ -195,9 +202,9 @@ footer {
 }
 
 .grid-container-main a {
-    font-family: "Roboto Mono", sans-serif;
-    font-weight: 300;
-    font-size: 200%;
+    font-family: var(--link-font);
+    font-weight: 200;
+    font-size: 250%;
     color: black;
     text-decoration: none;
 }
@@ -210,9 +217,9 @@ footer {
 }
 
 .grid-container-intermediate-page a {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: var(--link-font);
     font-weight: 300;
-    font-size: 150%;
+    font-size: 200%;
     color: black;
     text-decoration: none;
 }
