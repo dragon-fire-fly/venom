@@ -6,7 +6,7 @@
 
 Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
 
-<!-- Responsive mockup to go here -->
+<!-- Update responsive mockup !! -->
 
 Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
 
