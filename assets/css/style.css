@@ -42,7 +42,7 @@ header a {
 h1 {
     font-family: var(--h1-font);
     font-weight: 300;
-    font-size: 400%;
+    font-size: 300%;
     color: rgba(var(--h1-color),1);
     text-align: center;
 }
