@@ -1,7 +1,10 @@
 # Love Venom
 ## Overview of project
 ‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
-[am-i-responsive](documentation/testing/am-i-responsive-img.gif)
+
+![am-i-responsive](documentation/testing/am-i-responsive-img.gif)
+
+Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
 
 <!-- Responsive mockup to go here -->
 
@@ -26,6 +29,13 @@ The following fonts were selected from Google Fonts:
 - _Libre Baskerville Regular 400 Italic_ for the main "Love Venom" logo
 - _Roboto Mono regular 300_ for the main page photo labels and nav bar
 
+FontAwesome icons were used for social media buttons and collapible nav menu:
+- [Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands)
+- [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands)
+- [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands)
+- [Bars menu](https://fontawesome.com/search?q=bars&s=solid%2Cbrands)
+<!-- Link to icons used -->
+
 ### Wireframes
 <details>
 <summary>
@@ -47,6 +57,8 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 <!-- Briefly explain the project here -->
 
 ### Existing Features
+
+<!-- Add screenshot of each! -->
 1. Navigation bar which adapts to mobile devices
 2. Ability to select between vertebrates and invertebrate sections
 3. Individual pages for different types of animals
@@ -66,13 +78,30 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 ## Testing
 <!-- Link to seperate testing file -->
+To include:
+browser compatibility
+code validation (W3C and Jigsaw)
+responsiveness
+unfixed bugs
 
 ## Deployment
+The site was deployed to GitHub Pages by taking the following steps:
+1. Click on the "Settings" tab in the Github respository for the project
+2. Find and click on the "Pages" subsection on the left-hand menu bar
+3. Under "Source", select "Branch: main" and click save
+4. After a few miunutes, the site should be successfully deployed and the link may be found under "Environments" on the right hand side of the repository page.
+5. From here, the "View Deployment" button may be paressed to lead directly to the deployed site.
 
 ### Local deployment
+To create a local copy of this project on another computer, the following steps may be followed:
+1. Locate the repository of [the project you would like to copy](https://github.com/dragon-fire-fly/venom) 
+2. In the top-right corner of the repository click on the "fork" button
+3. Navigate to your fork of the project and above the list of files, click "Code"
+
+
 
 ## Credits
-
+<!-- Tim -->
 ### Content
 [Top navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 

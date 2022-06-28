@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Merienda&family=Roboto+Mono&family=Satisfy&display=swap');
 
 :root {
     --h1-font: "Berkshire Swash", sans-serif;
     --h2-font:"Berkshire Swash", sans-serif;
-    --nav-menu-font:"Kosugi Maru", sans-serif;
+    --nav-menu-font:"Merienda", sans-serif;
     --link-font: "Lobster", sans-serif;
+    --body-font: "Lato", sans-serif;
+    --background-color: 221,231,199;
+    --nav-bar-color: 135,182,155;
+    --black: 0,0,0;
+    --white: 255,255,255;
+    --l-blue: 41,160,190;
+    --d-blue: 2,120,158;
+    --h1-color: 18,97,0;
+
 }
 
 * {
@@ -14,10 +23,10 @@
 }
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: var(--body-font);
     font-weight: 300;
-    color: black;
-    background-color: #DDE7C7;
+    color: rgba(var(--black), 1);
+    background-color: rgba(var(--background-color), 1);
     width: 100%;
     margin: 0 auto;
 }
@@ -35,7 +44,7 @@ h1 {
     font-family: var(--h1-font);
     font-weight: 300;
     font-size: 400%;
-    color: #126100;
+    color: rgba(var(--h1-color),1);
     text-align: center;
 }
 
@@ -44,12 +53,12 @@ h2 {
     font-weight: 300;
     font-size: 300%;
     text-align: center;
-    color: black;
+    color: rgba(var(--black),1);
     padding: 20px;
 }
 
 nav {
-    background-color: #87B69B;
+    background-color: rgba(var(--nav-bar-color),1);
     text-align: center;
     padding: 15px;
 }
@@ -57,27 +66,27 @@ nav {
 .nav-menu a {
     font-family: var(--nav-menu-font);
     font-weight: 300;
-    color: black;
+    color: rgba(var(--black),1);
     font-size: 150%;
     text-decoration: none;
     padding: 0 3vw;
 }
 
 .nav-menu a:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(var(--black),1);
 }
 
 .active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(var(--black),1);
 }
 
 /* Footer */
 footer {
     height: 570px;
     width: 100%;
-    color: black;
+    color: rgba(var(--black),1);
     margin: 0;
-    background-color: #02789e;
+    background-color:rgba(var(--d-blue),1);
 }
 
 .footer-div {
@@ -103,7 +112,7 @@ footer {
     grid-column-end: span 2;
     grid-row-start: 2;
     grid-row-end: span 2;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(var(--white), 0.5)
 }
 
 .social-networks p {
@@ -118,7 +127,7 @@ footer {
     margin-right: 20px;
     padding: 0;
     font-size: 200%;
-    color: black;
+    color: rgba(var(--black),1);
 }
 
 .back-to-top {
@@ -131,7 +140,7 @@ footer {
 }
 
 .back-to-top a {
-    color: black;
+    color: rgba(var(--black),1);
     text-decoration: none;
     text-align: center;
     font-size: 120%;
@@ -140,7 +149,7 @@ footer {
 /* Style fontawesome social media links */
 .fa-brands {
     font-size: 100%;
-    color: #02789e;
+    color: rgba(var(--d-blue),1);
 }
 
 /* Main body index.html */
@@ -168,7 +177,7 @@ footer {
     grid-column-end: 11;
     grid-row-start: 2;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
+    background-color: rgba(var(--background-color),1);
 }
 
 #main-toad {
@@ -189,7 +198,7 @@ footer {
     grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
+    background-color: rgba(var(--background-color),1);
 }
 
 #main-wasp {
@@ -205,7 +214,7 @@ footer {
     font-family: var(--link-font);
     font-weight: 200;
     font-size: 250%;
-    color: black;
+    color: rgba(var(--black),1);
     text-decoration: none;
 }
 
@@ -214,67 +223,51 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    text-align: center;
 }
 
 .grid-container-intermediate-page a {
     font-family: var(--link-font);
     font-weight: 300;
     font-size: 200%;
-    color: black;
+    color: rgba(var(--black),1);
     text-decoration: none;
 }
 
 .intermediate-photo-one {
-
-    display: inline-block;
-    text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
-    max-height: 100%;
-    max-width: 2fr;
 }
 
 .intermediate-photo-two {
-
-    display: inline-block;
-    text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 2;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
 }
 
 .intermediate-photo-three {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
 }
 
 .intermediate-photo-four {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    text-align: center;
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 4;
     grid-row-end: span 1;
-    background-color: #DDE7C7;
 }
 
 .animal-cards {
     width: 100%;
     max-width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(var(--background-color),1);
 }
 
 /* Information pages */
@@ -287,7 +280,7 @@ footer {
 .local-nav a {
     font-size: 110%;
     text-decoration: none;
-    color: black;
+    color: rgba(var(--black),1);
     font-weight: 500;
 }
 
@@ -345,7 +338,6 @@ footer {
     grid-column-end: 12;
     grid-row-start: 4;
     grid-row-end: 5;
-    text-align: center;
 }
 
 .animal-three {
@@ -360,7 +352,6 @@ footer {
     grid-column-end: 12;
     grid-row-start: 6;
     grid-row-end: 7;
-    text-align: center;
 }
 
 .animal-four {
@@ -375,7 +366,6 @@ footer {
     grid-column-end: 12;
     grid-row-start: 8;
     grid-row-end: 9;
-    text-align: center;
 }
 
 .text-container p {
@@ -385,7 +375,6 @@ footer {
 .extra-species ul li {
     margin-left: 2rem;
     list-style-type: circle;
-
 }
 
 /* Contact page */
@@ -416,7 +405,7 @@ footer {
     grid-column-end: -3;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(var(--white),0.6);
     padding: 20px;
     border-radius: 10%;
     font-weight: 600;
@@ -425,12 +414,12 @@ footer {
 .text-input {
     width: 100%;
     margin: 10px 0 25px 0;
-    border: 1px solid black;
+    border: 1px solid rgba(var(--black),1);
     height: 25px;
 }
 
 .submit-button {
-    background-color: #DDE7C7;
+    background-color: rgba(var(--background-color),1);
     padding: 10px;
     text-align: center;
     margin: 20px 10px;
@@ -439,8 +428,8 @@ footer {
 }
 
 .submit-button:hover {
-    background-color: black;
-    color: #DDE7C7;
+    background-color: rgba(var(--black),1);
+    color: rgba(var(--background-color),1);
 }
 
 #comment {
@@ -452,7 +441,7 @@ footer {
     grid-column-end: -3;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(var(--white), 0.6);
     border-radius: 15%;
     font-weight: 600;
     padding: 50px 30px;
@@ -468,7 +457,7 @@ footer {
     grid-column-end: -1;
     grid-row-start: 6;
     grid-row-end: 7;
-    color: white;
+    color: rgba(var(--white),1);
 }
 
 .map-container {
@@ -504,7 +493,7 @@ footer {
     grid-column-end: -3;
     grid-row-start: 2;
     grid-row-end: 4;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(var(--white), 0.6);
     font-size: x-large;
     font-weight: 600;
     text-align: center;
@@ -528,7 +517,7 @@ footer {
         grid-column-end: span 2;
         grid-row-start: 3;
         grid-row-end: span 3;
-        background-color: rgba(42, 174, 207, 0.9);
+        background-color: rgba(var(--l-blue),0.9);
     }
 
     .social-networks p {
@@ -539,7 +528,6 @@ footer {
     /* Style fontawesome social media links */
     .fa-brands {
         font-size: 150%;
-        color: #02789e;
         padding: 20px;
     }
 
@@ -636,7 +624,6 @@ footer {
         grid-column-end: 13;
         grid-row-start: 1;
         grid-row-end: 2;
-        text-align: center;
     }
 
     .animal-two {
@@ -651,7 +638,6 @@ footer {
         grid-column-end: 7;
         grid-row-start: 2;
         grid-row-end: 3;
-        text-align: center;
     }
 
     .animal-three {
@@ -666,7 +652,6 @@ footer {
         grid-column-end: 13;
         grid-row-start: 3;
         grid-row-end: 4;
-        text-align: center;
     }
 
     .animal-four {
@@ -681,7 +666,6 @@ footer {
         grid-column-end: 7;
         grid-row-start: 4;
         grid-row-end: 5;
-        text-align: center;
     }
 
     /* Contact page media queries */
@@ -714,7 +698,7 @@ footer {
         grid-column-end: 11;
         grid-row-start: 5;
         grid-row-end: span 1;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(var(--black), 0.5);
     }
 
     .map-container {
@@ -759,7 +743,6 @@ footer {
         grid-column-end: 10;
         grid-row-start: 5;
         grid-row-end: span 1;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .map-container {
