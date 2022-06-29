@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Merienda&family=Roboto+Mono&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster+Two&family=Merienda&family=Roboto+Mono&family=Satisfy&display=swap');
 
 :root {
     --h1-font: "Berkshire Swash", sans-serif;
     --h2-font:"Berkshire Swash", sans-serif;
     --nav-menu-font:"Merienda", sans-serif;
-    --link-font: "Lobster", sans-serif;
+    --link-font: "Lobster Two", sans-serif;
     --body-font: "Lato", sans-serif;
     
     --background-color: 221,231,199;
     --nav-bar-color: 135,182,155;
     --black: 0,0,0;
     --white: 255,255,255;
-    --l-blue: 128,191,210;
+    --l-blue: 152,233,255;
     --d-blue: 2,120,158;
     --social-media:0,56,89;
     --h1-color: 18,97,0;
@@ -110,7 +110,7 @@ footer {
     text-align: center;
     margin: 0;
     padding: 30px 0;
-    background-color: rgba(var(--white), 0.5)
+    background-color: rgba(var(--l-blue), 0.5)
 }
 
 .social-networks p {
@@ -202,9 +202,31 @@ footer {
 .grid-container-main a {
     font-family: var(--link-font);
     font-weight: 200;
-    font-size: 250%;
+    font-size: 300%;
     color: rgba(var(--black),1);
     text-decoration: none;
+}
+
+.fact-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 15px repeat(4, 1fr) 15px;
+}
+.fact-box {
+    grid-area: 2/2/span 4/6;
+    background-color: rgba(var(--h1-color),1);
+    height: 100px;
+    border: 2px solid rgb(var(--black));
+    border-radius: 15%;
+}
+
+.fa-lightbulb {
+    grid-area: 3/2/span 2/6;
+    font-size: 300%;
+}
+
+.fa-lightbulb:hover{
+    color: gold
 }
 
 /* Vertebrate and invertebrate intermediate pages*/
@@ -446,7 +468,7 @@ footer {
 
     .social-networks {
         grid-area:3/1/span 3/span 2;
-        background-color: rgba(var(--l-blue),0.9);
+        background-color: rgba(var(--l-blue),0.6);
         margin: 0;
     }
 
