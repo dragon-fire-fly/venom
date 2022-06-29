@@ -6,12 +6,14 @@
     --nav-menu-font:"Merienda", sans-serif;
     --link-font: "Lobster", sans-serif;
     --body-font: "Lato", sans-serif;
+    
     --background-color: 221,231,199;
-    --nav-bar-color: 135,182,155;
+    --nav-bar-color: 130,168,156;
     --black: 0,0,0;
     --white: 255,255,255;
-    --l-blue: 41,160,190;
+    --l-blue: 128,191,210;
     --d-blue: 2,120,158;
+    --social-media:0,56,89;
     --h1-color: 18,97,0;
 }
 
@@ -145,7 +147,7 @@ footer {
 /* Style fontawesome social media links */
 .fa-brands {
     font-size: 100%;
-    color: rgba(var(--d-blue),1);
+    color: rgba(var(--social-media),1);
 }
 
 /* Main body index.html */
@@ -279,7 +281,7 @@ footer {
 .grid-container-info-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 15px repeat(4, minmax(100, auto) auto) 15px;
+    /* grid-template-rows: 15px repeat(4, minmax(100px, auto) auto) 15px; */
     row-gap: 10px;
     align-items: center;
 }
@@ -288,49 +290,37 @@ footer {
     max-width: 100%;
     border-radius: 2%;
 }
-
 .animal-text-containers {
     text-align: center;
     padding: 20px;
 }
-
 .animal-one {
     grid-area:1/2/2/12;
 }
-
 .animal-one-text-container {
     grid-area:2/2/3/12;
 }
-
-
 .animal-two {
     grid-area:3/2/4/12;
 }
-
 .animal-two-text-container {
     grid-area:4/2/5/12;
 }
-
 .animal-three {
     grid-area:5/2/6/12;
 }
-
 .animal-three-text-container {
     grid-area:6/2/7/12;
 }
-
 .animal-four {
     grid-area:7/2/8/12;
 }
-
 .animal-four-text-container {
     grid-area:8/2/9/12;
 }
-
 .text-container p {
     padding: 5px;
 }
-
 .extra-species ul li {
     margin-left: 2rem;
     list-style-type: circle;
@@ -372,9 +362,13 @@ footer {
     border: 1px solid rgba(var(--black),1);
     height: 25px;
 }
+.text-input:hover {
+    border: 3px solid rgba(var(--h1-color),1);
+}
 
 .submit-button {
     background-color: rgba(var(--background-color),1);
+    font-family: var(--nav-menu-font);
     padding: 10px;
     text-align: center;
     margin: 20px 10px;
