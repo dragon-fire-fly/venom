@@ -296,14 +296,16 @@ footer {
 .page-intro {
     text-align: justify;
     padding: 20px 10%;
+    font-size: 110%;
 }
 
 .grid-container-info-page {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: 15px repeat(4, minmax(100px, auto) auto) 15px; */
+    grid-template-rows: repeat(8, auto) 100px;
     row-gap: 10px;
     align-items: center;
+    font-size: 110%;
 }
 
 .animal-photos {
@@ -607,7 +609,7 @@ footer {
     .grid-container-info-page {
         display: grid;
         grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto) 100px;
     }
     .animal-one {
         grid-area: 1/2/2/7;
