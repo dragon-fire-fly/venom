@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster+Two&family=Merienda&family=Roboto+Mono&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Lobster+Two&family=Merienda&family=Montserrat:wght@300&family=Roboto+Mono&family=Satisfy&display=swap');
 
 :root {
     --h1-font: "Berkshire Swash", sans-serif;
     --h2-font:"Berkshire Swash", sans-serif;
     --nav-menu-font:"Merienda", sans-serif;
     --link-font: "Lobster Two", sans-serif;
-    --body-font: "Lato", sans-serif;
+    --body-font: "Arima", sans-serif;
     
     --background-color: 221,231,199;
     --nav-bar-color: 135,182,155;
@@ -296,8 +296,8 @@ footer {
 }
 
 .page-intro {
-    text-align: center;
-    padding: 20px;
+    text-align: justify;
+    padding: 20px 10%;
 }
 
 .grid-container-info-page {
@@ -313,6 +313,9 @@ footer {
     border-radius: 2%;
 }
 .animal-text-containers {
+    text-align: justify;
+}
+.animal-text-containers h3 {
     text-align: center;
     padding: 20px;
 }
@@ -342,6 +345,13 @@ footer {
 }
 .text-container p {
     padding: 5px;
+}
+.extra-species-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.extra-species {
+    grid-column-start: 2;
 }
 .extra-species ul li {
     margin-left: 2rem;
@@ -536,6 +546,86 @@ footer {
     }
 
     /* Information page media queries*/
+    /* .grid-container-info-page {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .animal-one {
+        grid-area: 1/2/2/6;
+    }
+    .animal-one-text-container {
+        grid-area: 1/7/2/14;
+    }
+    .animal-two {
+        grid-area: 2/8/3/13;
+    }
+    .animal-two-text-container {
+        grid-area: 2/2/3/7;
+    }
+    .animal-three {
+        grid-area: 3/2/4/7;
+    }
+    .animal-three-text-container {
+        grid-area: 3/8/4/13;
+    }
+    .animal-four {
+        grid-area: 4/8/5/13;
+    }
+    .animal-four-text-container {
+        grid-area: 4/2/5/7;
+    } */
+
+    /* Contact page media queries */
+    .contact-page-div {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+    }
+    .contact-page-div h2 {
+        font-size: 180%;
+    }
+    .feedback-form {
+        grid-area: 2/2/-4/7;
+    }
+    .contact-info {
+        grid-area:3/8/span 1/11;
+    }
+    .white-map-text {
+        grid-area:5/8/span 1/11;
+        background-color: rgba(var(--black), 0.5);
+    }
+    .map-container {
+        grid-area:6/8/span 1/11;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    /* Contact page media queries */
+    .contact-page-div {
+        display: grid;
+        grid-template-columns: repeat(11, 1fr);
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+    }
+    .contact-page-div h2 {
+        font-size: 200%;
+    }
+    .feedback-form {
+        grid-area:2/3/-4/7;
+    }
+    .contact-info {
+        grid-area:3/8/span 1/10;
+    }
+    .white-map-text {
+        grid-area:5/8/span 1/10;
+    }
+    .map-container {
+        grid-area:6/8/span 1/11;
+        height: auto;
+    }
+
+    /* Info page large screens media query */
     .grid-container-info-page {
         display: grid;
         grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
@@ -564,65 +654,6 @@ footer {
     }
     .animal-four-text-container {
         grid-area: 4/2/5/7;
-    }
-
-    /* Contact page media queries */
-    .contact-page-div {
-        display: grid;
-        grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
-    }
-
-    .contact-page-div h2 {
-        font-size: 180%;
-    }
-
-    .feedback-form {
-        grid-area: 2/2/-4/7;
-    }
-
-    .contact-info {
-        grid-area:3/8/span 1/11;
-    }
-
-    .white-map-text {
-        grid-area:5/8/span 1/11;
-        background-color: rgba(var(--black), 0.5);
-    }
-
-    .map-container {
-        grid-area:6/8/span 1/11;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 1360px) {
-    /* Contact page media queries */
-    .contact-page-div {
-        display: grid;
-        grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
-    }
-
-    .contact-page-div h2 {
-        font-size: 200%;
-    }
-
-    .feedback-form {
-        grid-area:2/3/-4/7;
-    }
-
-    .contact-info {
-        grid-area:3/8/span 1/10;
-    }
-
-    .white-map-text {
-        grid-area:5/8/span 1/10;
-    }
-
-    .map-container {
-        grid-area:6/8/span 1/11;
-        height: auto;
     }
 }
 
