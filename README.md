@@ -1,5 +1,8 @@
 # Love Venom
-## Overview of project
+
+# Contents
+
+# Overview of project
 ‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
 
 Target audience: 
@@ -12,9 +15,9 @@ Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/
 
 Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
 
-## UX
+# UX
 Love Venom was designed to provide a simple and easily navigatable website with a focus on large, high quality photos and accompanying text.
-### User Stories
+## User Stories
 As a user, I would like to be able to:
 - be able to learn about both vertebrate and invertebrate venomous animals
 - read about a range of specific venomous animals
@@ -22,7 +25,7 @@ As a user, I would like to be able to:
 - be able to access Love Venom from any browser of my choice
 - be able to easily contact the site owner and sign up for a newsletter
 
-### Colour Scheme
+## Colour Scheme
 Various colour pallettes were explored in preparation for this project using https://coolors.co/ and https://mycolor.space/. 
 
 An overall green theme was desired to be inkeeping with the venomous theme. 
@@ -48,11 +51,11 @@ The hex codes shown above were converted to rgb colours values to be used for th
     h1-color: #126100 = rgb(18,97,0);
 
 
-### Typography
+## Typography
 The following fonts were selected from Google Fonts:
 - _Berkshire Swash_ was chosen for the main "Love Venom" logo and h2 titles as it is a large, bold font with a calligraphic flair, perfect for titles.
 - _Lobster Two_ was chosen for the nav bar and main page photo labels as it is a visually appealing, joined-up style which is still easier to read. The Lobster family of fonts have different versions of each letter and the optimal variation is automatically selected to best fit its position in the word, ensuring an aesthetically pleasing joined-up effect.. Lobster Two has thinner text than the original Lobster text which makes it appear a little more delicate. 
-- _Amira_ was chosen for the main body text as it retains a calligraphic charachter but is an easily readable font with generous line spacing.
+- _Arima_ was chosen for the main body text as it retains a calligraphic charachter but is an easily readable font with generous line spacing.
 
 ![typography](documentation/features/typography.jpg)
 
@@ -60,7 +63,7 @@ All fonts were set as --root values and had _sans-serif_ set as a fall-back font
 
 FontAwesome icons were used for social media buttons ([Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) and [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands)) and collapible nav menu ([Bars menu](https://fontawesome.com/search?q=bars&s=solid%2Cbrands)).
 
-### Wireframes
+## Wireframes
 <details>
 <summary>
 The following wireframes were created using Balsamiq Wireframes:</summary>
@@ -77,13 +80,13 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 </details>
 
-## Features
+# Features
 <!-- Briefly explain the project here (consistency accross different pages, formatted according to best practice, good quality, non-distorted images) -->
 
-### Existing Features
+## Existing Features
 
 <!-- Add screenshot of each! -->
-1. Navigation bar
+### Navigation bar
 - Featured on every page of the site and uses consistent colours and typography
 - Features the main "Love Venom" logo, "Home", "Vertebrates", "Invertebrates", "Contact"
 - Allows user to quickly navigate between sections of the website without having to use the "back" button on thier browser
@@ -93,7 +96,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 
 
-2. Landing page 
+### Landing page 
 - Welcomes users and briefly describes the purpose of the site
 - Features the ability to select between vertebrates and invertebrate sections and links to these sections by clicking the photo or title
 - Features high quality, non-distorted images positioned using CSS grid
@@ -101,7 +104,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 ![landing-page-images](documentation/features/landing-page-images.png)
 
 
-3. Individual pages for different types of animals
+### Individual pages for different types of animals
 - Two sub-pages, one each for vertebrates and invertebrates
 - Features high quality, non-distorted images positioned using CSS grid
 - Images are responsive to different screen sizes and change between being side-by-side or stacked on top of eachother, depending on screen size of device
@@ -109,7 +112,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 ![intermediate-pages](documentation/features/intermediate-page.png)
 
-4. Footer with social media links
+### Footer with social media links
 - Featured on every page of the site and uses consistent colours and typography
 - Links to external social media accounts. As this is a mock website, it is not associated with real social media accounts and therefore the links open the home pages of the relevant social media sites. These links open in a new tab.
 - Features a high-quality photo of a spider on a leaf with a blue background. Shades similar to this blue were used for the banner and social media icons also featured in the footer in order to complement each other. Various amounts of opacity were applied to the banner depending on the screen size to ensure the spider can be seen through the banner when relevant.
@@ -118,7 +121,7 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 ![footer](documentation/features/footer.png)
 
-5. Contact page with validation and a confirmation page
+### Contact page with validation and a confirmation page
 - Features a high quality image of a spider's web with dew drops
 - Features contact form with form validation so that the user may leave feedback or request to join the mailing list
 - The input boxes have a green border around them when hovered over. The submit button also changes to contrasting colours when hovered over. These features provide feedback to the user to know where they are potentially about to click
@@ -131,22 +134,24 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 ![confirmation-page](documentation/features/confirmation-page.png)
 
 
-### Features Left to Implement
+## Features Left to Implement
 1. What is venom? What is the difference between venoms and poisons?
 
-## Technologies used
-1. HTML5
-2. CSS3
-3. [Gitpod](https://gitpod.io/)
-4. [Github](https://github.com/)
-5. [Balsamiq](https://balsamiq.com/) (for wireframes)
-6. CSS grid for positioning
-7. --root values for consistency and ease of alteration
+# Technologies used
+- HTML5 for providing the core structure of the website pages
+- CSS3 for styling the HTML documents
+- [Gitpod](https://gitpod.io/) as a developer platform
+- [Github](https://github.com/) as a code hosting platform
+- [Git](https://git-scm.com/) for source code management
+- [Balsamiq](https://balsamiq.com/) for creating wireframes at the start of the project to help guide HTML and CSS coding
+- [Photopea](https://www.photopea.com/) for cropping some of the photos
+- CSS grid for positioning elements within the style.css file
+- --root values in the style.css file for consistency and ease of alteration of colours and fonts
 
-## Testing
+# Testing
 For details of all testing, please refer to the [TESTING.md](TESTING.md) file.
 
-## Deployment
+# Deployment
 The site was deployed to GitHub Pages by taking the following steps:
 1. Click on the "Settings" tab in the Github respository for the project
 2. Find and click on the "Pages" subsection on the left-hand menu bar
@@ -154,7 +159,7 @@ The site was deployed to GitHub Pages by taking the following steps:
 4. After a few miunutes, the site should be successfully deployed and the link may be found under "Environments" on the right hand side of the repository page.
 5. From here, the "View Deployment" button may be paressed to lead directly to the deployed site.
 
-### Local deployment
+## Local deployment
 To create a local copy of this project on another computer, the following steps may be followed:
 1. Locate the repository of [the project you would like to copy](https://github.com/dragon-fire-fly/venom) 
 2. In the top-right corner of the repository click on the "fork" button
@@ -162,15 +167,14 @@ To create a local copy of this project on another computer, the following steps 
 
 
 
-## Credits
-<!-- Tim -->
-### Content
+# Credits
+## Content
 [Top navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
-### Media
+## Media
 <!-- Images and video credits go here -->
 <details>
-<summary>Image credits for all used images can be found here:</summary>
+<summary>Image credits for all images used can be found here:</summary>
 
 | Image name  | Source URL  |
 |---|---|
@@ -216,4 +220,5 @@ To create a local copy of this project on another computer, the following steps 
 </details>
 <!-- true-spider-in-web.jpeg true-spider-on-leaf.jpeg -->
 
-### Acknowledgements
+## Acknowledgements
+<!-- Tim -->
