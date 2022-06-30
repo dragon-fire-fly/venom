@@ -2,6 +2,8 @@
 ## Overview of project
 ‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
 
+Target audience: 
+
 ![am-i-responsive](documentation/testing/am-i-responsive-img.gif)
 
 Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
@@ -48,21 +50,15 @@ The hex codes shown above were converted to rgb colours values to be used for th
 
 ### Typography
 The following fonts were selected from Google Fonts:
-- _Berkshire Swash_ for the main "Love Venom" logo and h2 titles
-- _Merienda_ for the nav bar text
-- _Lobster Two_ for the main page photo labels
-- _Lato_ for the main body text
+- _Berkshire Swash_ was chosen for the main "Love Venom" logo and h2 titles as it is a large, bold font with a calligraphic flair, perfect for titles.
+- _Lobster Two_ was chosen for the nav bar and main page photo labels as it is a visually appealing, joined-up style which is still easier to read. The Lobster family of fonts have different versions of each letter and the optimal variation is automatically selected to best fit its position in the word, ensuring an aesthetically pleasing joined-up effect.. Lobster Two has thinner text than the original Lobster text which makes it appear a little more delicate. 
+- _Amira_ was chosen for the main body text as it retains a calligraphic charachter but is an easily readable font with generous line spacing.
 
 ![typography](documentation/features/typography.jpg)
 
 All fonts were set as --root values and had _sans-serif_ set as a fall-back font in the case that the specific fonts could not be loaded.
 
-FontAwesome icons were used for social media buttons and collapible nav menu:
-- [Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands)
-- [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands)
-- [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands)
-- [Bars menu](https://fontawesome.com/search?q=bars&s=solid%2Cbrands)
-<!-- Link to icons used -->
+FontAwesome icons were used for social media buttons ([Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) and [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands)) and collapible nav menu ([Bars menu](https://fontawesome.com/search?q=bars&s=solid%2Cbrands)).
 
 ### Wireframes
 <details>
@@ -82,25 +78,58 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 </details>
 
 ## Features
-<!-- Briefly explain the project here -->
+<!-- Briefly explain the project here (consistency accross different pages, formatted according to best practice, good quality, non-distorted images) -->
 
 ### Existing Features
 
 <!-- Add screenshot of each! -->
 1. Navigation bar
-- featured on every page of the site and uses consistent colours and typography
-- features the main "Love Venom" logo, "Home", "Vertebrates", "Invertebrates", "Contact"
-- allows user to quickly navigate between sections of the website without having to use the "back" button on thier browser
-- adaptive design for different screen sizes and collapses into a "burger menu" for smaller mobile devices (600 pixels or smaller)
-- allows user to know which section they are currently on by underlining that section's name on the menu
+- Featured on every page of the site and uses consistent colours and typography
+- Features the main "Love Venom" logo, "Home", "Vertebrates", "Invertebrates", "Contact"
+- Allows user to quickly navigate between sections of the website without having to use the "back" button on thier browser
+- Adaptive design for different screen sizes and collapses into a "burger menu" for smaller mobile devices (600 pixels or smaller)
+- Allows user to know which section they are currently on by underlining that section's name on the menu
+![Navigation-menu](documentation/features/nav-menu.png)
 
 
 
+2. Landing page 
+- Welcomes users and briefly describes the purpose of the site
+- Features the ability to select between vertebrates and invertebrate sections and links to these sections by clicking the photo or title
+- Features high quality, non-distorted images positioned using CSS grid
+- Images are responsive to different screen sizes and change between being side-by-side or stacked on top of eachother, depending on screen size of device
+![landing-page-images](documentation/features/landing-page-images.png)
 
-2. Ability to select between vertebrates and invertebrate sections
+
 3. Individual pages for different types of animals
+- Two sub-pages, one each for vertebrates and invertebrates
+- Features high quality, non-distorted images positioned using CSS grid
+- Images are responsive to different screen sizes and change between being side-by-side or stacked on top of eachother, depending on screen size of device
+- Features the ability to select between different animal sections and links to these sections by clicking the photo or title
+
+![intermediate-pages](documentation/features/intermediate-page.png)
+
 4. Footer with social media links
+- Featured on every page of the site and uses consistent colours and typography
+- Links to external social media accounts. As this is a mock website, it is not associated with real social media accounts and therefore the links open the home pages of the relevant social media sites. These links open in a new tab.
+- Features a high-quality photo of a spider on a leaf with a blue background. Shades similar to this blue were used for the banner and social media icons also featured in the footer in order to complement each other. Various amounts of opacity were applied to the banner depending on the screen size to ensure the spider can be seen through the banner when relevant.
+- Spider photo is fixed in position so as the user scrolls to the footer, the spider is revealed
+- Features a "Back to top" button, which is fixed in position so it can be accessed from anywhere on the page. This allows the user to easily return to the top of the page to make use of the navigation features. This is positioned at the bottom of the page in the centre, and adjusts in size and position responsively.
+
+![footer](documentation/features/footer.png)
+
 5. Contact page with validation and a confirmation page
+- Features a high quality image of a spider's web with dew drops
+- Features contact form with form validation so that the user may leave feedback or request to join the mailing list
+- The input boxes have a green border around them when hovered over. The submit button also changes to contrasting colours when hovered over. These features provide feedback to the user to know where they are potentially about to click
+
+![contact-page](documentation/features/contact-page.png)
+
+
+- Features a confirmation page which the user is directed to after sucessful submission of the form
+
+![confirmation-page](documentation/features/confirmation-page.png)
+
 
 ### Features Left to Implement
 1. What is venom? What is the difference between venoms and poisons?
@@ -111,7 +140,8 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 3. [Gitpod](https://gitpod.io/)
 4. [Github](https://github.com/)
 5. [Balsamiq](https://balsamiq.com/) (for wireframes)
-6. CSS grid
+6. CSS grid for positioning
+7. --root values for consistency and ease of alteration
 
 ## Testing
 For details of all testing, please refer to the [TESTING.md](TESTING.md) file.

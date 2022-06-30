@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Lobster+Two&family=Merienda&family=Montserrat:wght@300&family=Roboto+Mono&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400&family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Lobster+Two&family=Merienda&family=Montserrat:wght@300&family=Roboto+Mono&family=Satisfy&display=swap');
 
 :root {
     --h1-font: "Berkshire Swash", sans-serif;
     --h2-font:"Berkshire Swash", sans-serif;
-    --nav-menu-font:"Merienda", sans-serif;
+    --nav-menu-font:"Lobster Two", sans-serif;
     --link-font: "Lobster Two", sans-serif;
     --body-font: "Arima", sans-serif;
     
@@ -66,11 +66,10 @@ nav {
 
 .nav-menu a {
     font-family: var(--nav-menu-font);
-    font-weight: 300;
     color: rgba(var(--black),1);
-    font-size: 150%;
+    font-size: 160%;
     text-decoration: none;
-    padding: 0 3vw;
+    padding: 0 2vw;
 }
 
 .nav-menu a:hover {
@@ -161,6 +160,7 @@ footer {
     grid-area:1/3/span 1/11;
     padding: 30px 0;
     text-align: center;
+    font-size: 120%;
 }
 
 .main-photo-one {
@@ -318,6 +318,7 @@ footer {
 .animal-text-containers h3 {
     text-align: center;
     padding: 20px;
+    font-size: 200%;
 }
 .animal-one {
     grid-area:1/2/2/12;
@@ -398,9 +399,21 @@ footer {
     border: 3px solid rgba(var(--h1-color),1);
 }
 
+#text-comment {
+    max-width: 100%;
+    height: 100px;
+}
+
+#newsletter {
+    height: 20px;
+    width: 20px;
+}
+
 .submit-button {
     background-color: rgba(var(--background-color),1);
-    font-family: var(--nav-menu-font);
+    font-family: var(--body-font);
+    font-size: 100%;
+    font-weight: 600;
     padding: 10px;
     text-align: center;
     margin: 20px 10px;
@@ -411,10 +424,6 @@ footer {
 .submit-button:hover {
     background-color: rgba(var(--black),1);
     color: rgba(var(--background-color),1);
-}
-
-#comment {
-    height: 100px
 }
 
 .contact-info {
@@ -544,37 +553,6 @@ footer {
     .intermediate-photo-four {
         grid-area:2/15/3/span 3;
     }
-
-    /* Information page media queries*/
-    /* .grid-container-info-page {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr) 75px repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
-    .animal-one {
-        grid-area: 1/2/2/6;
-    }
-    .animal-one-text-container {
-        grid-area: 1/7/2/14;
-    }
-    .animal-two {
-        grid-area: 2/8/3/13;
-    }
-    .animal-two-text-container {
-        grid-area: 2/2/3/7;
-    }
-    .animal-three {
-        grid-area: 3/2/4/7;
-    }
-    .animal-three-text-container {
-        grid-area: 3/8/4/13;
-    }
-    .animal-four {
-        grid-area: 4/8/5/13;
-    }
-    .animal-four-text-container {
-        grid-area: 4/2/5/7;
-    } */
 
     /* Contact page media queries */
     .contact-page-div {
