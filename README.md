@@ -94,7 +94,12 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 - Allows user to know which section they are currently on by underlining that section's name on the menu
 ![Navigation-menu](documentation/features/nav-menu.png)
 
+### Additional navigation
+The site uses two forms of additional naviagation to aid the user:
+- Back-to-top button at the bottom of the page which is fixed in position so it can be accessed from anywhere on the page. This allows the user to easily return to the top of the page to make use of the navigation features. This is positioned at the bottom of the page in the centre, and adjusts in size and position responsively.
+- "Bread-crumbs" navigation so that intermediate pages may be accessed from the information pages without having to use the "back" button on the browser. This also reminds the user exactly where they are on the website. This navigation is kept small at the top of the page so as not to distract from the main content. The clickable links transform to uppercase in response to being hovered over.
 
+![Additional-navigation](documentation/features/additional-navigation.png)
 
 ### Landing page 
 - Welcomes users and briefly describes the purpose of the site
@@ -112,12 +117,16 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 
 ![intermediate-pages](documentation/features/intermediate-page.png)
 
+### Seperate pages for each different type of animal
+- The site is further sub-divided into eight sections: [Reptiles](reptiles.html), [Amphibians](amphibians.html), [Fish](fish.html), [Mammals-and-Birds](mammals-and-birds.html), [Spiders](spiders.html), [Scorpions](scorpions.html), [Insects-and-other-arthropods](#) and [Marine-invertebrates](#)
+
+
+
 ### Footer with social media links
 - Featured on every page of the site and uses consistent colours and typography
 - Links to external social media accounts. As this is a mock website, it is not associated with real social media accounts and therefore the links open the home pages of the relevant social media sites. These links open in a new tab.
 - Features a high-quality photo of a spider on a leaf with a blue background. Shades similar to this blue were used for the banner and social media icons also featured in the footer in order to complement each other. Various amounts of opacity were applied to the banner depending on the screen size to ensure the spider can be seen through the banner when relevant.
 - Spider photo is fixed in position so as the user scrolls to the footer, the spider is revealed
-- Features a "Back to top" button, which is fixed in position so it can be accessed from anywhere on the page. This allows the user to easily return to the top of the page to make use of the navigation features. This is positioned at the bottom of the page in the centre, and adjusts in size and position responsively.
 
 ![footer](documentation/features/footer.png)
 

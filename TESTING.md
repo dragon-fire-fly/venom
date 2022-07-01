@@ -54,6 +54,8 @@ marine -->
 
 
 ## Lighthouse Tests
+<!-- The SEO score is highly affected by the java menu using a fontawesome icon making the link "uncrawlable". Most of the page at or aroun 90% so deemed ok.-->
+<!-- Could improve Performance scores by reducing size of image and/or changing file format to a next-gen format such as WebP or AVIF. Given the nperformance scores were still over 90% and the purpose of the website to serve high quality images that users may wish to download, these changes were not made. -->
 ### Home page
 
 
