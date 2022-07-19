@@ -180,6 +180,8 @@ To create a local copy of this project on another computer, the following steps 
 ## Content
 [Top navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
+All factual text content came from [Wikipedia](https://en.wikipedia.org/)
+
 ## Media
 <!-- Images and video credits go here -->
 <details>
@@ -223,7 +225,10 @@ To create a local copy of this project on another computer, the following steps 
 | slow-loris-img.jpg  | [flickr](https://www.flickr.com/photos/vladimir_buynevich/44591761055/in/photolist-2aWqr1t-chDnLq-6xYn1E-JDsvSL-thSdC-thS5C-Gsbgz-6tFt7J-bEmULN-Gs6wm-3yMVYz-bTgBWv-potN4T-25327-tpkme-6fr1rW-9fyGQa-QbwxaE-Nyht1i-2aVLoT8-5MGdP4-Qbwsq9-98AjSS-3yMWgV-dAAtM-Gsbf4-rctqZD-2aVEMeH-2hg9tBH-2hg6REY-2hg6Rq9-hb13Bm-7PchWo-7PchPm-2hg6Rke-pEYmPr-VMbAh5-2hg8weH-dAB2T-2hg95hW-29xS6LA-2aVEQYg-2cn5GMB-NycS16-2be4gU1-2ceSZCC-zwaAGg-2aVEcWv-2hg6S6n-2hg9w41)  |
 | vampire-bat.jpg  | https://www.bbc.com/news/science-environment-43112650  |
 | black-pitohui.jpg  | https://www.flickr.com/photos/nikborrow/28412269747/in/album-72157676757379802/  |
-|   |   |
+| bumble-bee.jpeg  | https://www.pexels.com/photo/bee-perching-on-grass-2823532/  |
+| beetle.jpg  | https://www.flickr.com/photos/88896512@N03/9621842767/  |
+| centipede.jpg  | https://www.flickr.com/photos/88896512@N03/8103373831/  |
+| ant.jpeg  | https://www.pexels.com/photo/black-ant-on-green-leaf-8181843/  |
 |   |   |
 
 </details>
