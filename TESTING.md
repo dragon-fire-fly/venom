@@ -5,55 +5,77 @@ Click [here](README.md) to return back to the README.md
 # Contents
 
 # Browser Compatibility
+The website was tested on [Google Chrome](https://www.google.com/chrome/) and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
+All screenshots in the [README.md file](README.md) were taken using the [Google Chrome](https://www.google.com/chrome/) browser and below are a few screenshots from [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/):
+
+Home page:
+![Home](documentation/testing/index-firefox.png)
+
+Vertebrates page:
+![Vertebrates](documentation/testing/vertebrates-firefox.png)
+
+Contact page:
+![Contact](documentation/testing/contact-firefox.png)
 
 
 # Code Validation
 ## HTML
+The HTML code for each page was checked using the [W3 HTML validator](https://validator.w3.org/)
+All pages passed validation with no errors.
 ### Home page
-![Home](documentation/testing/html-w3-validation-tests/html-home.png)
+![Home](documentation/testing/html-w3-validation-tests/index-w3.png)
 
 ### Intermediate pages
 - Vertebrates
-
-![Vertebrates](documentation/testing/html-w3-validation-tests/html-vertebrates.png)
+![Vertebrates](documentation/testing/html-w3-validation-tests/vertebrates-w3.png)
 
 - Invertebrates
-
-![Invertebrates](documentation/testing/html-w3-validation-tests/html-invertebrates.png)
+![Invertebrates](documentation/testing/html-w3-validation-tests/invertebrates-w3.png)
 
 ### Information pages
 - Reptiles
-
-![Reptiles](documentation/testing/html-w3-validation-tests/html-reptiles.png)
+![Reptiles](documentation/testing/html-w3-validation-tests/reptiles-w3.png)
 
 - Amphibians
-
-![Amphibians](documentation/testing/html-w3-validation-tests/html-amphibians.png)
+![Amphibians](documentation/testing/html-w3-validation-tests/amphibians-w3.png)
 
 - Fish
-
-![Fish](documentation/testing/html-w3-validation-tests/html-fish.png)
+![Fish](documentation/testing/html-w3-validation-tests/fish-w3.png)
 
 - Mammals and Birds
+![Mammals-and-birds](documentation/testing/html-w3-validation-tests/mammals-birds-w3.png)
 
-![Mammals-and-birds](documentation/testing/html-w3-validation-tests/html-m-and-b.png)
+- Spiders
+![Spiders](documentation/testing/html-w3-validation-tests/spiders-w3.png)
 
-<!-- spiders
-scorpions
-insects
-marine -->
+- Scorpions
+![Scorpions](documentation/testing/html-w3-validation-tests/scorpions-w3.png)
+
+- Insects and Other Arthropods
+![Insects](documentation/testing/html-w3-validation-tests/insects-w3.png)
+
+- Marine Invertebrates
+![Marine-invertebrates](documentation/testing/html-w3-validation-tests//marine-inverts-w3.png)
 
 
 ### Contact page
 - Contact Page
-<!-- contact ![](documentation/testing/html-) -->
+![Contact](documentation/testing/html-w3-validation-tests/contact-w3.png)
 - Confirmation Page
-![Confirmation](documentation/testing/html-w3-validation-tests/html-confirmation.png)
-
+![Confirmation](documentation/testing/html-w3-validation-tests/confirmation-w3.png)
 
 ## CSS validation
+The CSS code was passed through the [W3C Validation Service](https://jigsaw.w3.org/css-validator/) and passed with no errors.
 
+![CSS-validation](documentation/testing/css-validation.png)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 
 ## Lighthouse Tests
 <!-- The SEO score is highly affected by the java menu using a fontawesome icon making the link "uncrawlable". Most of the page at or aroun 90% so deemed ok.-->
