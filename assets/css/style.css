@@ -373,7 +373,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 15px auto 15px auto 15px 30px auto;
-    height: 1000px;
     width: 100%;
 }
 
@@ -451,6 +450,7 @@ footer {
 
 .map-container {
     grid-area:7/1/8/-1;
+    height: auto;
 }
 
 .map {
@@ -564,7 +564,7 @@ footer {
     .contact-page-div {
         display: grid;
         grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px auto 1fr 15px;
     }
     .contact-page-div h2 {
         font-size: 180%;
@@ -576,11 +576,11 @@ footer {
         grid-area:3/8/span 1/11;
     }
     .white-map-text {
-        grid-area:5/8/span 1/11;
+        grid-area:6/3/span 1/11;
         background-color: rgba(var(--black), 0.5);
     }
     .map-container {
-        grid-area:6/8/span 1/11;
+        grid-area:7/2/span 1/11;
         height: auto;
     }
 }
@@ -590,7 +590,7 @@ footer {
     .contact-page-div {
         display: grid;
         grid-template-columns: repeat(11, 1fr);
-        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 50px repeat(3, 1fr) 15px;
+        grid-template-rows: repeat(2, 75px) repeat(2, 1fr) 100px auto 15px;
     }
     .contact-page-div h2 {
         font-size: 200%;
@@ -602,10 +602,10 @@ footer {
         grid-area:3/8/span 1/10;
     }
     .white-map-text {
-        grid-area:5/8/span 1/10;
+        grid-area:6/2/span 1/10;
     }
     .map-container {
-        grid-area:6/8/span 1/11;
+        grid-area:8/2/9/11;
         height: auto;
     }
 
