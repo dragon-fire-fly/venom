@@ -61,49 +61,62 @@ marine -->
 For each Lighthouse Test, the page was tested in both mobile and desktop versions. Both scores are displayed below with the mobile scores followed by desktop:
 ### Home page
 ![Home-page-mobile](documentation/testing/lighthouse-tests/index-mobile.png)
+![Home-page-web](documentation/testing/lighthouse-tests/index-web.png)
 
 ### Intermediate pages
 - Vertebrates
 ![Vertebrates-mobile](documentation/testing/lighthouse-tests/vertebrates-mobile.png)
+![Vertebrates-web](documentation/testing/lighthouse-tests/vertebrates-web.png)
 
 - Invertebrates
 ![Invertebrates-mobile](documentation/testing/lighthouse-tests/invertebrates-mobile.png)
+![Invertebrates-web](documentation/testing/lighthouse-tests/invertebrates-web.png)
 
 ### Information page
 - Reptiles
 ![Reptiles-mobile](documentation/testing/lighthouse-tests/reptiles-mobile.png)
+![Reptiles-web](documentation/testing/lighthouse-tests/reptiles-web.png)
 
 - Amphibians
 (Bad SEO score)
 ![Amphibians-mobile](documentation/testing/lighthouse-tests/amphibians-mobile-1.png)
+![Amphibians-web](documentation/testing/lighthouse-tests/amphibians-web.png)
 
 - Fish
 (Bad SEO score)
 ![Fish-mobile](documentation/testing/lighthouse-tests/fish-mobile-1.png)
+![Fish-web](documentation/testing/lighthouse-tests/fish-web.png)
 
 - Mammals and Birds
 ![Mammals-and-birds-mobile](documentation/testing/lighthouse-tests/mammals-birds-mobile.png)
+![Mammals-and-birds-web](documentation/testing/lighthouse-tests/mammals-birds-web.png)
 
 - Spiders
 ![Spiders-mobile](documentation/testing/lighthouse-tests/spiders-mobile.png)
+![Spiders-web](documentation/testing/lighthouse-tests/spiders-web.png)
 
 - Scorpions
 ![Scorpions-mobile](documentation/testing/lighthouse-tests/scorpions-mobile.png)
+![Scorpions-web](documentation/testing/lighthouse-tests/scorpions-web.png)
 
 - Insects and Other Arthropods
 ![Insects-Arthropods-mobile](documentation/testing/lighthouse-tests/insects-mobile.png)
+![Insects-Arthropods-web](documentation/testing/lighthouse-tests/insects-web.png)
 
 - Marine Invertebrates
 ![Marine-Invertebrates-mobile](documentation/testing/lighthouse-tests/marine-mobile.png)
+![Marine-Invertebrates-web](documentation/testing/lighthouse-tests/marine-web.png)
 
 ### Contact page
 - Contact Page
 (bad score)
 ![Contact-mobile](documentation/testing/lighthouse-tests/contact-mobile-1.png)
+![Contact-web](documentation/testing/lighthouse-tests/contact-web.png)
 
 - Confirmation Page
 (bad score)
 ![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)
+![Confirmation-web](documentation/testing/lighthouse-tests/confirmation-web.png)
 
 # Accessibility
 The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23dde7c7%0D%0A%2382a89c%0D%0A%2373b8cc%0D%0A%2302789e%0D%0A%23003859%0D%0A%23126100%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) contrast grid generator was used to assess suitability of chosen colour scheme to ensure good accessibility scores were achieved. The scores for all colour combinations used were at least 5.5 (pass, AA), and the combinations used for smaller texts scored at least 9 (pass, AAA)
