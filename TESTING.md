@@ -11,33 +11,33 @@ Click [here](README.md) to return back to the README.md
 # Code Validation
 ## HTML
 ### Home page
-![Home](documentation/testing/html-home.png)
+![Home](documentation/testing/html-w3-validation-tests/html-home.png)
 
 ### Intermediate pages
 - Vertebrates
 
-![Vertebrates](documentation/testing/html-vertebrates.png)
+![Vertebrates](documentation/testing/html-w3-validation-tests/html-vertebrates.png)
 
 - Invertebrates
 
-![Invertebrates](documentation/testing/html-invertebrates.png)
+![Invertebrates](documentation/testing/html-w3-validation-tests/html-invertebrates.png)
 
 ### Information pages
 - Reptiles
 
-![Reptiles](documentation/testing/html-reptiles.png)
+![Reptiles](documentation/testing/html-w3-validation-tests/html-reptiles.png)
 
 - Amphibians
 
-![Amphibians](documentation/testing/html-amphibians.png)
+![Amphibians](documentation/testing/html-w3-validation-tests/html-amphibians.png)
 
 - Fish
 
-![Fish](documentation/testing/html-fish.png)
+![Fish](documentation/testing/html-w3-validation-tests/html-fish.png)
 
 - Mammals and Birds
 
-![Mammals-and-birds](documentation/testing/html-m-and-b.png)
+![Mammals-and-birds](documentation/testing/html-w3-validation-tests/html-m-and-b.png)
 
 <!-- spiders
 scorpions
@@ -46,8 +46,10 @@ marine -->
 
 
 ### Contact page
+- Contact Page
 <!-- contact ![](documentation/testing/html-) -->
-![Confirmation](documentation/testing/html-confirmation.png)
+- Confirmation Page
+![Confirmation](documentation/testing/html-w3-validation-tests/html-confirmation.png)
 
 
 ## CSS validation
@@ -55,15 +57,53 @@ marine -->
 
 ## Lighthouse Tests
 <!-- The SEO score is highly affected by the java menu using a fontawesome icon making the link "uncrawlable". Most of the page at or aroun 90% so deemed ok.-->
-<!-- Could improve Performance scores by reducing size of image and/or changing file format to a next-gen format such as WebP or AVIF. Given the nperformance scores were still over 90% and the purpose of the website to serve high quality images that users may wish to download, these changes were not made. -->
+<!-- Could improve Performance scores by reducing size of image and/or changing file format to a next-gen format such as WebP or AVIF. Given the performance scores were still over 90% and the purpose of the website to serve high quality images that users may wish to download, these changes were not made. -->
+For each Lighthouse Test, the page was tested in both mobile and desktop versions. Both scores are displayed below with the mobile scores followed by desktop:
 ### Home page
-
+![Home-page-mobile](documentation/testing/lighthouse-tests/index-mobile.png)
 
 ### Intermediate pages
+- Vertebrates
+![Vertebrates-mobile](documentation/testing/lighthouse-tests/vertebrates-mobile.png)
+
+- Invertebrates
+![Invertebrates-mobile](documentation/testing/lighthouse-tests/invertebrates-mobile.png)
 
 ### Information page
+- Reptiles
+![Reptiles-mobile](documentation/testing/lighthouse-tests/reptiles-mobile.png)
+
+- Amphibians
+(Bad SEO score)
+![Amphibians-mobile](documentation/testing/lighthouse-tests/amphibians-mobile-1.png)
+
+- Fish
+(Bad SEO score)
+![Fish-mobile](documentation/testing/lighthouse-tests/fish-mobile-1.png)
+
+- Mammals and Birds
+![Mammals-and-birds-mobile](documentation/testing/lighthouse-tests/mammals-birds-mobile.png)
+
+- Spiders
+![Spiders-mobile](documentation/testing/lighthouse-tests/spiders-mobile.png)
+
+- Scorpions
+![Scorpions-mobile](documentation/testing/lighthouse-tests/scorpions-mobile.png)
+
+- Insects and Other Arthropods
+![Insects-Arthropods-mobile](documentation/testing/lighthouse-tests/insects-mobile.png)
+
+- Marine Invertebrates
+![Marine-Invertebrates-mobile](documentation/testing/lighthouse-tests/marine-mobile.png)
 
 ### Contact page
+- Contact Page
+(bad score)
+![Contact-mobile](documentation/testing/lighthouse-tests/contact-mobile-1.png)
+
+- Confirmation Page
+(bad score)
+![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)
 
 # Accessibility
 The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23dde7c7%0D%0A%2382a89c%0D%0A%2373b8cc%0D%0A%2302789e%0D%0A%23003859%0D%0A%23126100%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) contrast grid generator was used to assess suitability of chosen colour scheme to ensure good accessibility scores were achieved. The scores for all colour combinations used were at least 5.5 (pass, AA), and the combinations used for smaller texts scored at least 9 (pass, AAA)

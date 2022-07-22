@@ -52,7 +52,7 @@ h1 {
 h2 {
     font-family: var(--h2-font);
     font-weight: 300;
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     color: rgba(var(--black),1);
     padding: 20px;
@@ -318,7 +318,7 @@ footer {
 .animal-text-containers h3 {
     text-align: center;
     padding: 20px;
-    font-size: 200%;
+    font-size: 180%;
 }
 .animal-one {
     grid-area:1/2/2/12;
