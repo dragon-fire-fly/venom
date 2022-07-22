@@ -359,6 +359,10 @@ footer {
     list-style-type: circle;
 }
 
+#box-jellyfish {
+    min-width: 100%;
+}
+
 /* Contact page */
 .contact-section {
     background: url(../images/contact-cobweb-img.jpg) no-repeat center center;

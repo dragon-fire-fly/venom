@@ -230,6 +230,10 @@ All factual text content came from [Wikipedia](https://en.wikipedia.org/)
 | centipede.jpg  | https://www.flickr.com/photos/88896512@N03/8103373831/  |
 | ant.jpeg  | https://www.pexels.com/photo/black-ant-on-green-leaf-8181843/  |
 |   |   |
+| blue-ring-octopus  | [flickr](https://www.flickr.com/photos/krokodiver/16219454856/in/photolist-qHfWRo-hekmi7-dU2moe-dU7ZrY-dBkuT8-5X19Ed-5PPnVS-5PK89n-o3qqTX-nXm6zU-KCvHow-9nJpd7-bVxXzU-7YJXan-afFEPf-afCTMt-djdpr7-2kTJFfE-dtVggH-7Jdsr8-bmKaZt-rHtBCK-8jNKLF-dtVfMk-8LoyWb-5PPo23-4EgW34-dLK6pr-9gAZiu-8zs5QB-PnJoYj-2mZGrT5-xrNHU9-dLQEzj-du1QyU-dtVfit-aepMBK-4fWjgN-Yqtqwk-qKogzz-2ja9JDs-mZ3f7-7WE2xP-qpXC8u-dgTHSp-8zs61g-8zs684-booYsr-dLQCPY-dLQDif)  |
+| box-jellyfish  | [flickr](https://www.flickr.com/photos/outbacksnack/6209639190/in/photolist-asJ2oE-bkixWd-39Sg1B-f9xyTb-f9xzcj-f9ij4e-f9ijNe-f9xyXf-f9ij7Z-f9ijgi-f9xyKy-f9ijXp-f9xzfw-f9iiYP-f9xzju-f9xz2u-f9xzsj-f9iiVP-f9xzBb-f9ijxR-6CkDCH-4eB1fQ-HdkPfF-2npoWwg-5wGwjF-nQU73o-83GCGF-2a6DBF9-dj88u6-U3EWAE-dJrXPe-48B6VQ-2jyKmH-788Fpf-rvGKXN-p3c9Bk-9Cvvv7-7jU8gT-4z4Nqf-f9xyj9-f9xycs-dt57UM-cYp7sy-6rULNr-4igFJg-EZtt1z-2XCLkF-4THtDr-aZJork-nTdrwQ)  |
+| cone-snail  | [flickr](https://www.flickr.com/photos/188233235@N06/50837462058/in/photolist-2kskhjw-2jkuKtH-Uqqh2S-bmBcmK-PxJscu-CevaNM-2g2BjWd-9iFZU5-26cX1DE-2bdbUpC-2iVqbRG-2hcjML2-YVPpyq-2nyuvE7-dGxeyL-SDZPnL-aZazYV-dCxDrA-Ddo6VR-NC3N7w-UtDnbZ-9dUhcJ-YN3GGJ-82EXXM-CCnc1a-7wnica-2mgixnQ-2mgdvqh-2mgmbiR-Ldopi7-236QyUW-2mgnzj9-2mgnzgo-4aeWq9-dgsFtT-WNxpKN-Lkrof8-2heXtz6-ScdZYP-4aaThv-71bGu2-bWfP6L-24cs4W6-fRPL6Y-2k6j1yF-K6dVa-MPJ2S4-i4zNzh-V3L9GC-PxJuBQ)  |
+| sea-anemone  | https://www.pexels.com/photo/close-up-photo-of-clownfish-underwater-10205460/  |
 
 </details>
 <!-- true-spider-in-web.jpeg true-spider-on-leaf.jpeg -->
