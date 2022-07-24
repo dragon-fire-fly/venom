@@ -2,6 +2,31 @@
 
 # Contents
 
+* [**User Experience (UX)**](<#user-experience-ux>)  
+    * [User Stories](<#user-stories>)  
+    * [Colour Scheme](<#colour-scheme>)  
+    * [Typography](<#typography>)  
+    * [Wireframes](<#wireframes>)  
+* [**Features**](<#features>)  
+    * [Existing Features](<#existing-features>)  
+        * [Navigation Bar](<#navigation-bar>)  
+        * [Additional Navigation](<#additional-navigation>)  
+        * [Landing Page](<#landing-page>)  
+        * [Vertebrate and Invertebrate Sub-pages](<#vertebrate-and-invertebrate-sub-pages>)  
+        * [Seperate Type of Animal Sub-pages](<#seperate-type-of-animal-sub-pages>)  
+        * [Footer](<#footer-with-social-media-links>)  
+        * [Contact Page (with Confirmation Page)](<#contact-page-with-validation-and-a-confirmation-page>)  
+    * [Features Left to Implement](<#features-left-to-implement>)  
+* [**Technologies Used**](<#technologies-used>)  
+* [**Testing**](<#testing>)  
+* [**Deployment**](<#deployment>)  
+    * [Github Pages](<#deployment-with-github-pages>)  
+    * [Local Deployment](<#local-deployment>)  
+* [**Credits**](<#credits>)  
+    * [Content](<#content>)
+    * [Media](<#media>)
+    * [Acknowledgements](<#acknowledgements>)
+
 # Overview of project
 ‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
 
@@ -15,7 +40,7 @@ Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/
 
 Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
 
-# UX
+# User Experience (UX)
 Love Venom was designed to provide a simple and easily navigatable website with a focus on large, high quality photos and accompanying text.
 ## User Stories
 As a user, I would like to be able to:
@@ -109,7 +134,7 @@ The site uses two forms of additional naviagation to aid the user:
 ![landing-page-images](documentation/features/landing-page-images.png)
 
 
-### Individual pages for different types of animals
+### Vertebrate and Invertebrate Sub-pages
 - Two sub-pages, one each for vertebrates and invertebrates
 - Features high quality, non-distorted images positioned using CSS grid
 - Images are responsive to different screen sizes and change between being side-by-side or stacked on top of eachother, depending on screen size of device
@@ -117,8 +142,16 @@ The site uses two forms of additional naviagation to aid the user:
 
 ![intermediate-pages](documentation/features/intermediate-page.png)
 
-### Seperate pages for each different type of animal
-- The site is further sub-divided into eight sections: [Reptiles](reptiles.html), [Amphibians](amphibians.html), [Fish](fish.html), [Mammals-and-Birds](mammals-and-birds.html), [Spiders](spiders.html), [Scorpions](scorpions.html), [Insects-and-other-arthropods](#) and [Marine-invertebrates](#)
+### Seperate Type of Animal Sub-pages
+- The site is further sub-divided into eight sections: 
+* [Reptiles](reptiles.html)  
+* [Amphibians](amphibians.html)   
+* [Fish](fish.html)  
+* [Mammals-and-Birds](mammals-and-birds.html)  
+* [Spiders](spiders.html)  
+* [Scorpions](scorpions.html)  
+* [Insects-and-other-arthropods](insects.html)  
+* [Marine-invertebrates](marine-inverts.html)
 
 
 
@@ -161,6 +194,7 @@ The site uses two forms of additional naviagation to aid the user:
 For details of all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 # Deployment
+## Deployment with GitHub Pages
 The site was deployed to GitHub Pages by taking the following steps:
 1. Click on the "Settings" tab in the Github respository for the project
 2. Find and click on the "Pages" subsection on the left-hand menu bar
@@ -178,12 +212,13 @@ To create a local copy of this project on another computer, the following steps 
 
 # Credits
 ## Content
-[Top navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
-
-All factual text content came from [Wikipedia](https://en.wikipedia.org/)
+- [This W3schools Tutorial](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) was used to help implement a simple JavaScript based navigation menu to help make the menu options more legible on smaller screen sizes.
+- [CSS Grid Garden](https://cssgridgarden.com/) was used to learn how to create effective CSS grid layouts
+- All factual text content came from [Wikipedia](https://en.wikipedia.org/).
+- Fonts were imported from [Google Fonts](https://fonts.google.com/)
+- Icons were imported from [FontAwesome](https://fontawesome.com/)
 
 ## Media
-<!-- Images and video credits go here -->
 <details>
 <summary>Image credits for all images used can be found here:</summary>
 
@@ -239,4 +274,6 @@ All factual text content came from [Wikipedia](https://en.wikipedia.org/)
 <!-- true-spider-in-web.jpeg true-spider-on-leaf.jpeg -->
 
 ## Acknowledgements
-<!-- Tim -->
+I would like to thank my Mentor Tim Nelson for all his advice, encouragement and patience throughout the development of this site. Thank you also for showing me valuable help and resources to help improve my understanding of CSS and implement a mobile friendly nav bar.
+I would also like to thank my fellow Code Institute students and alumni, in parcicular the students in the May 2022 class, for their support, advice and as a source of inspiration! 
+And last but not least I'd like to thank my husband for his patience and support and in particular for continuously reminding me to "keep it small" ... which of course I chose to ignore ;) 
