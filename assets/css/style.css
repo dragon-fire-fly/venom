@@ -112,7 +112,7 @@ footer {
     background-color: rgba(var(--l-blue), 0.5)
 }
 
-.social-networks h3 {
+.social-networks h2 {
     font-size: 150%;
     font-weight: 600;
     padding: 30px;
