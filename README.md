@@ -1,7 +1,6 @@
 # Love Venom
-
-# Contents
-
+# Contents 
+* [**Project Overview**](<#overview-of-project>) 
 * [**User Experience (UX)**](<#user-experience-ux>)  
     * [User Stories](<#user-stories>)  
     * [Colour Scheme](<#colour-scheme>)  
@@ -28,17 +27,17 @@
     * [Acknowledgements](<#acknowledgements>)
 
 # Overview of project
-‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them. This site will be useful for anyone who has an interest in venom, animal poison or animals in general and is intended for adults and children aged 12+.
+‘Love Venom’ is a site that aims to provide accurate educational content about venom and animal poisons and the animals that produce them.  
+The target audience for this website is adults and children aged 12+. It is hoped that the site will be useful for anyone who has an interest in venom, animal poison or animals in general.
 
-Target audience: 
 
-![am-i-responsive](documentation/testing/am-i-responsive-img.gif)
+![am-i-responsive](documentation/testing/am-i-responsive.png)
 
 Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
 
-<!-- Update responsive mockup !! -->
-
 Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
+
+[Back to Top](#contents)
 
 # User Experience (UX)
 Love Venom was designed to provide a simple and easily navigatable website with a focus on large, high quality photos and accompanying text.
@@ -91,7 +90,7 @@ FontAwesome icons were used for social media buttons ([Facebook](https://fontawe
 ## Wireframes
 <details>
 <summary>
-The following wireframes were created using Balsamiq Wireframes:</summary>
+The following wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)</summary>
 
 | Name  | Wireframe  |
 |---|---|
@@ -104,6 +103,8 @@ The following wireframes were created using Balsamiq Wireframes:</summary>
 | Contact page  | ![a wireframe of the contact page](documentation/wireframes/contact_wireframe.png)  |
 
 </details>
+
+[Back to Top](#contents)
 
 # Features
 <!-- Briefly explain the project here (consistency accross different pages, formatted according to best practice, good quality, non-distorted images) -->
@@ -179,6 +180,8 @@ The site uses two forms of additional naviagation to aid the user:
 ## Features Left to Implement
 1. What is venom? What is the difference between venoms and poisons?
 
+[Back to Top](#contents)
+
 # Technologies used
 - HTML5 for providing the core structure of the website pages
 - CSS3 for styling the HTML documents
@@ -190,8 +193,12 @@ The site uses two forms of additional naviagation to aid the user:
 - CSS grid for positioning elements within the style.css file
 - --root values in the style.css file for consistency and ease of alteration of colours and fonts
 
+[Back to Top](#contents)
+
 # Testing
 For details of all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+[Back to Top](#contents)
 
 # Deployment
 ## Deployment with GitHub Pages
@@ -208,7 +215,7 @@ To create a local copy of this project on another computer, the following steps 
 2. In the top-right corner of the repository click on the "fork" button
 3. Navigate to your fork of the project and above the list of files, click "Code"
 
-
+[Back to Top](#contents)
 
 # Credits
 ## Content
@@ -277,3 +284,5 @@ To create a local copy of this project on another computer, the following steps 
 I would like to thank my Mentor Tim Nelson for all his advice, encouragement and patience throughout the development of this site. Thank you also for showing me valuable help and resources to help improve my understanding of CSS and implement a mobile friendly nav bar.
 I would also like to thank my fellow Code Institute students and alumni, in parcicular the students in the May 2022 class, for their support, advice and as a source of inspiration! 
 And last but not least I'd like to thank my husband for his patience and support and in particular for continuously reminding me to "keep it small" ... which of course I chose to ignore ;) 
+
+[Back to Top](#contents)

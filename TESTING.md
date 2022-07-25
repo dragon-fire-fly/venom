@@ -3,6 +3,15 @@
 Click [here](README.md) to return back to the README.md
 
 # Contents
+* [**Browser Compatibility**](<#browser-compatibility>) 
+* [**Code Validation**](<#code-validation>)  
+    * [HTML Validation](<#html-validation>)  
+    * [CSS Validation](<#css-validation>)  
+    * [Lighthouse Tests](<#lighthouse-tests>)  
+* [**Accessibility**](<#accessibility>)  
+* [**Responsiveness**](<#responsiveness>)  
+* [**Bug Fixes**](<#bug-fixes>)  
+    * [Unfixed Bugs](<#unfixed-bugs>)  
 
 # Browser Compatibility
 The website was tested on [Google Chrome](https://www.google.com/chrome/) and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -18,9 +27,10 @@ Vertebrates page:
 Contact page:
 ![Contact](documentation/testing/contact-firefox.png)
 
+[Back to Top](#contents)
 
 # Code Validation
-## HTML
+## HTML Validation
 The HTML code for each page was checked using the [W3 HTML validator](https://validator.w3.org/)
 All pages passed validation with no errors.
 ### Home page
@@ -65,8 +75,10 @@ All pages passed validation with no errors.
 - Confirmation Page
 ![Confirmation](documentation/testing/html-w3-validation-tests/confirmation-w3.png)
 
-## CSS validation
-The CSS code was passed through the [W3C Validation Service](https://jigsaw.w3.org/css-validator/) and passed with no errors.
+[Back to Top](#contents)
+
+## CSS Validation
+The CSS code was pasted into the [W3C Validation Service](https://jigsaw.w3.org/css-validator/) and passed with no errors.
 
 ![CSS-validation](documentation/testing/css-validation.png)
 <p>
@@ -76,6 +88,8 @@ The CSS code was passed through the [W3C Validation Service](https://jigsaw.w3.o
             alt="Valid CSS!" />
     </a>
 </p>
+
+[Back to Top](#contents)
 
 ## Lighthouse Tests
 <!-- The SEO score is highly affected by the java menu using a fontawesome icon making the link "uncrawlable". Most of the page at or aroun 90% so deemed ok.-->
@@ -140,15 +154,20 @@ For each Lighthouse Test, the page was tested in both mobile and desktop version
 ![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)
 ![Confirmation-web](documentation/testing/lighthouse-tests/confirmation-web.png)
 
+[Back to Top](#contents)
+
 # Accessibility
 The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23dde7c7%0D%0A%2382a89c%0D%0A%2373b8cc%0D%0A%2302789e%0D%0A%23003859%0D%0A%23126100%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) contrast grid generator was used to assess suitability of chosen colour scheme to ensure good accessibility scores were achieved. The scores for all colour combinations used were at least 5.5 (pass, AA), and the combinations used for smaller texts scored at least 9 (pass, AAA)
 
 ![eightshapes-grid](documentation/testing/contrast-grid-annotated.jpg)
 
+[Back to Top](#contents)
+
 # Responsiveness
 
 
 
+[Back to Top](#contents)
 
 # Bug Fixes
 ## Overflow-x problem
@@ -168,3 +187,5 @@ This issue was fixed by removing the marign-left and using the code above to pro
 ## Unfixed Bugs
 
 <!-- iPad landscape issue? -->
+
+[Back to Top](#contents)
