@@ -1,6 +1,6 @@
 # Love Venom Testing
 
-Click [here](README.md) to return back to the README.md
+Click [here](README.md) to return back to the main body of the README.md
 
 # Contents
 * [**Browser Compatibility**](<#browser-compatibility>) 
@@ -160,42 +160,42 @@ A more descriptive link ("more about pufferfish genera" instead of "click here")
 The desktop version of the contact page had an SEO score of 89 due to the inclusion of the JavaScript menu using a fontawesome icon making the link "uncrawlable". I was unable to improve this score to be above 90 without removing the JavaScript menu. The inclusion of the menu and its effect on the overall user experience and layout of the site on mobile was deemed more important at this time.
 
 - Confirmation Page  
-![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)  
+![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile.png)  
 ![Confirmation-desktop](documentation/testing/lighthouse-tests/confirmation-desktop.png)
 
 The desktop version of the confirmation page had an SEO score of 89 due to the inclusion of the JavaScript menu using a fontawesome icon making the link "uncrawlable". I was unable to improve this score to be above 90 without removing the JavaScript menu. The inclusion of the menu and its effect on the overall user experience and layout of the site on mobile was deemed more important at this time.
 
-The accessibilty score was also below 90 (85 and 89 for mobile and desktop respectively) due to the redirect function included in the head element (<meta http-equiv="refresh" content="10; url=index.html">). This automatically redirects the user to index.html after 10 seconds and includes a link that users can click if they wish to be taken there automatically. 
-
-The increase in user experience provided by this feature was deemed more important than the accessibility score as the page clearly explains that the user is about to be redirected and so users using a screen reader will know that this is about to happen.
+The accessibilty score was also below 90 (85 and 89 for mobile and desktop respectively) due to the redirect function included in the head element ("meta http-equiv="refresh" content="10; url=index.html""). This automatically redirects the user to index.html after 10 seconds and includes a link that users can click if they wish to be taken there immediately. This feature was left in the site due to the increase in user experience it provides. The page clearly states that the user is about to be redirected to the home page so users using a screen reader will know that this is about to happen.
 
 [Back to Top](#contents)
 
 # Accessibility
-The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23dde7c7%0D%0A%2382a89c%0D%0A%2373b8cc%0D%0A%2302789e%0D%0A%23003859%0D%0A%23126100%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) contrast grid generator was used to assess suitability of chosen colour scheme to ensure good accessibility scores were achieved. The scores for all colour combinations used were at least 5.5 (pass, AA), and the combinations used for smaller texts scored at least 9 (pass, AAA)
+The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23dde7c7%0D%0A%2382a89c%0D%0A%2373b8cc%0D%0A%2302789e%0D%0A%23003859%0D%0A%23126100%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) contrast grid generator was used to assess suitability of chosen colour scheme to ensure good accessibility scores were achieved. The scores for all colour combinations used were at least 5.5 (pass, AA), and the combinations used for smaller texts scored at least 9 (pass, AAA).
 
 ![eightshapes-grid](documentation/testing/contrast-grid-annotated.jpg)
+
+Lighthouse accessibility scores may also be viewed in the [Lighthouse tests](#lighthouse-tests) section above.
 
 [Back to Top](#contents)
 
 # Responsiveness
-The site was designed using a "mobile first" approach. This mean that the basic CSS rules apply to smaller screen sizes and media queries change the content for larger screen sizes. In general the following break points were considered and used for the design of the website: 375px (medium size mobile phone), 750px (medium tablet in portrait), 950px (small desktop, laptop and tablet in landscape) and 1250px (larger desktop).
+The site was designed using a "mobile first" approach. This means that the basic CSS rules apply to smaller screen sizes and media queries change the content for larger screen sizes. In general the following break points were considered during the design of the website: 375px (medium size mobile phone), 750px (medium tablet in portrait), 950px (small desktop, laptop and tablet in landscape) and screen sizes above 1250px (larger desktop).
 
-The site overall was tested using [Am I Responsive?](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html). A screenshot is shown below:
+The site overall was tested using [Am I Responsive?](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html). A screenshot is shown below and the interactive responsiveness test may be accessed using the link above.
 ![am-i-responsive](documentation/testing/responsiveness/am-i-responsive.png)
 
-The index.html page appears like this on different screen sizes:
+The index.html page appears like this on different screen sizes, with images displayed either side-by-side or stacked, depending on screen size:
 ![index-page-responsive](documentation/testing/responsiveness/index-responsive.png)
 
 
-The majority of media queries were at screen sizes of 950px and above. In the original wireframe designs, an additional breakpoint for tablets was included (to be between approximately 750-950px), however, when this was tested, the icons for selecting animals on the intermediate page appeared too small, as shown below. Therefore, a larger (950px) breakpoint was selected here to stack the icons on top of one another:
+The majority of media queries were at screen sizes of 950px and above. In the original wireframe designs, an additional breakpoint for tablets was included (to be between approximately 750-950px), however, when this was tested, the icons for selecting animals on the intermediate page appeared too small, as shown below. In addition, too much of the footer is visible in this format compared to a scrollable screen. Therefore, a larger (950px) breakpoint was selected here to stack the icons on top of one another on screens between 320-950px:
 
 ![intermediate-page-small-icons](documentation/testing/responsiveness/intermediate-page-750px.png)
 
-This effect was also seen on the individual animal pages as the photos appeared too small as the CSS grid layout accomodated for a larger block of text on screen sizes 750px and 960px. as shown below. Therefore the breakpoint selected for side-by-side text and images was 1250px.
+This effect was also seen on the individual animal pages as the photos appeared too small as the CSS grid layout accomodated for a narrower, longer block of text on screen sizes 750px and 950px, as shown below. As the aim of the website is to display large, high quality photos, this was deemed unacceptable. Therefore the breakpoint selected for side-by-side text and images was 1250px.
 ![individual-page-responsive-design](documentation/testing/responsiveness/individual-page-wrong-bps.png)
 
-The optimised individual pages now appear like this:
+The individual pages now appear like this, with break points better optimised for the content on these pages:
 ![individual-pages-optimised](documentation/testing/responsiveness/individual-page-optimised.png)
 
 
@@ -220,11 +220,9 @@ This issue was fixed by removing the marign-left and using the code above to pro
 
 During development, the contact page was modified to move the map to the bottom of the page. During this move, a bug occured whereby the map was overlapping into the footer, as shown in the portrait and landscape mobile screenshots below.
 
-![map-overlap-portrait](documentation/testing/bugs/map-overlap-issue-portrait.jpg)
+![map-overlap-portrait](documentation/testing/bugs/map-overlap-bug.png)
 
-![map-overlap-landscape](documentation/testing/bugs/map-overlap-issue-landscape.jpg)
-
-The source of this issue was due to the page originally being given a height value of 1000px to allow the spiderweb image to be shown correctly. A height of 1000px was no longer enough to display all the page elements within the CSS grid given to the page. By removing this 1000px height value and redesigning the CSS grid, the map was shown correctly and was no longer overlapping into the footer.
+The source of this issue was due to the page originally being given a height value of 1000px to allow the spiderweb image to be shown correctly. A height of 1000px was no longer enough to display all the page elements within the CSS grid given to the page. By removing this 1000px height value and reconfiguring the CSS grid, the map was shown correctly and was no longer overlapping into the footer.
 
 ## Unfixed Bugs
 
