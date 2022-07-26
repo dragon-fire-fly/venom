@@ -11,6 +11,8 @@ Click [here](README.md) to return back to the README.md
 * [**Accessibility**](<#accessibility>)  
 * [**Responsiveness**](<#responsiveness>)  
 * [**Bug Fixes**](<#bug-fixes>)  
+    * [Overflow-x issue](<#overflow-x-problem>)
+    * [Map overlap issue](<#map-overlay-issue>)
     * [Unfixed Bugs](<#unfixed-bugs>)  
 
 # Browser Compatibility
@@ -173,16 +175,21 @@ The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&backgroun
 ## Overflow-x problem
 Whilst testing the website, an x-overflow was discovered (a scrollbar appeared along the x-axis). 
 
-![overflow-x](documentation/testing/overflow-x.png)
+![overflow-x](documentation/testing/bugs/overflow-x.png)
 
 
 This bug was created when attempting to centre the "Back to top" element. The margin-left: -60px seemed to be causing the width of the footer to be larger than the width of the main body, as seen below:
 
-![back-to-top](documentation/testing/overflow-x-issue.jpg)
+![back-to-top](documentation/testing/bugs/overflow-x-issue.jpg)
 
 
 This issue was fixed by removing the marign-left and using the code above to properly centre the "Back to top" element, using "fit content" and "margin: 0, auto" properties instead. This fixed the overflow-x issue.
 
+## Map overlay issue
+
+![map-overlap-portrait](documentation/testing/bugs/map-overlap-issue-portrait.jpg)
+
+![map-overlap-landscape](documentation/testing/bugs/map-overlap-issue-landscape.jpg)
 
 ## Unfixed Bugs
 
