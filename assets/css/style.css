@@ -207,28 +207,6 @@ footer {
     text-decoration: none;
 }
 
-.fact-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 15px repeat(4, 1fr) 15px;
-}
-.fact-box {
-    grid-area: 2/2/span 4/6;
-    background-color: rgba(var(--h1-color),1);
-    height: 100px;
-    border: 2px solid rgb(var(--black));
-    border-radius: 15%;
-}
-
-.fa-lightbulb {
-    grid-area: 3/2/span 2/6;
-    font-size: 300%;
-}
-
-.fa-lightbulb:hover{
-    color: gold
-}
-
 /* Vertebrate and invertebrate intermediate pages*/
 .grid-container-intermediate-page {
     display: grid;

@@ -108,11 +108,10 @@ The following wireframes were created using [Balsamiq Wireframes](https://balsam
 [Back to Top](#contents)
 
 # Features
-<!-- Briefly explain the project here (consistency accross different pages, formatted according to best practice, good quality, non-distorted images) -->
+'Love Venom' strives to provide high quality, non-distorted images accompanied by informative text to the user. This is delivered by consistently styled pages, intuitive navigation and formatting that complies with best practice. Below are some details about the features that have been incorporated into the project, along with some features which could be implemented in the future to make the site better.
 
 ## Existing Features
 
-<!-- Add screenshot of each! -->
 ### Navigation bar
 - Featured on every page of the site and uses consistent colours and typography
 - Features the main "Love Venom" logo, "Home", "Vertebrates", "Invertebrates", "Contact"
@@ -145,7 +144,7 @@ The site uses two forms of additional naviagation to aid the user:
 ![intermediate-pages](documentation/features/intermediate-page.png)
 
 ### Seperate Type of Animal Sub-pages
-- The site is further sub-divided into eight sections: 
+The site is further sub-divided into eight sections: 
 * [Reptiles](reptiles.html)  
 * [Amphibians](amphibians.html)   
 * [Fish](fish.html)  
@@ -155,12 +154,14 @@ The site uses two forms of additional naviagation to aid the user:
 * [Insects-and-other-arthropods](insects.html)  
 * [Marine-invertebrates](marine-inverts.html)
 
+Each page follows similar styling with four example animals per page. The amphibians page is shown below as an example:
 
+![amphibians-page](documentation/features/amphibians-example-page.png)
 
 ### Footer with social media links
 - Featured on every page of the site and uses consistent colours and typography
-- Links to external social media accounts. As this is a mock website, it is not associated with real social media accounts and therefore the links open the home pages of the relevant social media sites. These links open in a new tab.
-- Features a high-quality photo of a spider on a leaf with a blue background. Shades similar to this blue were used for the banner and social media icons also featured in the footer in order to complement each other. Various amounts of opacity were applied to the banner depending on the screen size to ensure the spider can be seen through the banner when relevant.
+- Links to external social media accounts. As this is a mock website, it is not associated with real social media accounts and therefore the links open the home pages of the relevant social media sites. These links open in a new tab
+- Features a high-quality photo of a spider on a leaf with a blue background. Shades similar to this blue were used for the banner and social media icons also featured in the footer in order to complement each other. Various amounts of opacity were applied to the banner depending on the screen size to ensure the spider can be seen through the banner when relevant
 - Spider photo is fixed in position so as the user scrolls to the footer, the spider is revealed
 
 ![footer](documentation/features/footer.png)
@@ -172,14 +173,23 @@ The site uses two forms of additional naviagation to aid the user:
 
 ![contact-page](documentation/features/contact-page.png)
 
-
 - Features a confirmation page which the user is directed to after sucessful submission of the form
+- After 10 seconds, the user is automatically redirected back to index.html
 
 ![confirmation-page](documentation/features/confirmation-page.png)
 
 
 ## Features Left to Implement
-1. What is venom? What is the difference between venoms and poisons?
+
+1. What is venom? What is the difference between venoms and poisons? 
+It could be a nice addition to user experience to explain to the user what the difference between poisonous and venomous animals is. This could be achieved by allowing the user to interact with a "did you know?" button which could then explain the difference.
+2. Geographical locations of each species
+It may be a nice addition in the future to include an interactive map where users could find out about where each species come from. This could even be in the form of a quiz to test the user's knowledge
+3. A "top ten" venomous animals league table
+A future feature could be listing the "top ten" most venomous animals, and/or giving each type of animal featured a venom/poison rating out of 10
+4. Animal of the week
+The site could feature some kind of interactive blog which provides detail about a new species or type of animal each week/month. This could improve the educational value of the site and also improve interactivity and encourage more traffic to the site
+
 
 [Back to Top](#contents)
 
