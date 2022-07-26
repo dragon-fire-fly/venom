@@ -19,8 +19,9 @@
 * [**Technologies Used**](<#technologies-used>)  
 * [**Testing**](<#testing>)  
 * [**Deployment**](<#deployment>)  
-    * [Github Pages](<#deployment-with-github-pages>)  
-    * [Local Deployment](<#local-deployment>)  
+    * [Github Pages](<#deployment-with-github-pages>) 
+    * [Forking a Repository](<#forking-someone-elses-repository>) 
+    * [Creating a Local Clone](<#creating-a-local-clone-of-a-project>)  
 * [**Credits**](<#credits>)  
     * [Content](<#content>)
     * [Media](<#media>)
@@ -206,14 +207,30 @@ The site was deployed to GitHub Pages by taking the following steps:
 1. Click on the "Settings" tab in the Github respository for the project
 2. Find and click on the "Pages" subsection on the left-hand menu bar
 3. Under "Source", select "Branch: main" and click save
-4. After a few miunutes, the site should be successfully deployed and the link may be found under "Environments" on the right hand side of the repository page.
-5. From here, the "View Deployment" button may be paressed to lead directly to the deployed site.
+4. After a few miunutes, the site should be successfully deployed and the link may be found on the same page or under "Environments" on the right hand side of the repository page.
+5. From here, the "View Deployment" button leads directly to the deployed site.
 
-## Local deployment
-To create a local copy of this project on another computer, the following steps may be followed:
+![Github-pages-deployment](documentation/deployment/github-pages-deployment.png)  
+![Github-enviroment](documentation/deployment/github-pages-environment.png)  
+![Github-view-deployment](documentation/deployment/deployment-link.png)
+
+## Forking someone else's repository
+To create your own copy of this project on another computer, the following steps may be followed, which allow you to make a copy onto your own GitHub account, without changing the original code that you are copying:
 1. Locate the repository of [the project you would like to copy](https://github.com/dragon-fire-fly/venom) 
 2. In the top-right corner of the repository click on the "fork" button
-3. Navigate to your fork of the project and above the list of files, click "Code"
+3. Navigate to your fork of the project and start coding!
+
+![Forking-repository](documentation/deployment/forking-repo.png)
+
+## Creating a local clone of a project
+Following these steps will allow you to clone a repository and open it in your local IDE, for example Visual Studio Code, Eclipse or NetBeans:
+1. Locate the repository of [the project you would like to copy](https://github.com/dragon-fire-fly/venom) 
+2. Click the green "Code" button to access a drop down menu
+3. Ensuring that HTTPS is selected, select the copy button (as shown in the screenshot below) to copy the URL of the repository of interest
+4. Open your local IDE and change the current working directory in GitBash to the desired location for the new repository
+5. In the command line, type 'git clone' and paste the URL obtained earlier from GitHub.
+
+![Creating-local-clone](documentation/deployment/local-IDE-clone.png)
 
 [Back to Top](#contents)
 
