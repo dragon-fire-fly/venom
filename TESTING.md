@@ -94,67 +94,74 @@ The CSS code was pasted into the [W3C Validation Service](https://jigsaw.w3.org/
 [Back to Top](#contents)
 
 ## Lighthouse Tests
-<!-- The SEO score is highly affected by the java menu using a fontawesome icon making the link "uncrawlable". Most of the page at or aroun 90% so deemed ok.-->
-<!-- Could improve Performance scores by reducing size of image and/or changing file format to a next-gen format such as WebP or AVIF. Given the performance scores were still over 90% and the purpose of the website to serve high quality images that users may wish to download, these changes were not made. -->
-For each Lighthouse Test, the page was tested in both mobile and desktop versions. Both scores are displayed below with the mobile scores followed by desktop:
+Lighthouse tests were performed using the built in lighthouse tool in Google Chrome Developer Tools. The aim of running Lighthouse tests is to improve site performance, accessibility and usability. The tests also measure the site crawlability and how highly it is displayed in search results in a search engine (SEO score). Scores over 90 are deemed to be very good.  
+
+The performance scores for most of the pages in this project could have been improved by reducing size of image and/or changing file format to a next-gen format such as WebP or AVIF. Given the performance scores were still over 90% and the purpose of the website to serve high quality images that users may wish to download, these changes were not made.  
+
+The SEO score for many of the pages was highly affected by the inclusion of the JavaScript menu using a fontawesome icon making the link "uncrawlable". Most of the pages were at or around 90% so this was deemed acceptable.  
+
+For each page of the website, Lightouhse Tests were performed in both mobile and desktop versions. Both scores are displayed below with the mobile scores followed by desktop:  
+
 ### Home page
-![Home-page-mobile](documentation/testing/lighthouse-tests/index-mobile.png)
-![Home-page-web](documentation/testing/lighthouse-tests/index-web.png)
+![Home-page-mobile](documentation/testing/lighthouse-tests/index-mobile.png)  
+![Home-page-desktop](documentation/testing/lighthouse-tests/index-desktop.png)    
 
 ### Intermediate pages
-- Vertebrates
-![Vertebrates-mobile](documentation/testing/lighthouse-tests/vertebrates-mobile.png)
-![Vertebrates-web](documentation/testing/lighthouse-tests/vertebrates-web.png)
+- Vertebrates  
+![Vertebrates-mobile](documentation/testing/lighthouse-tests/vertebrates-mobile.png)  
+![Vertebrates-desktop](documentation/testing/lighthouse-tests/vertebrates-desktop.png)  
 
-- Invertebrates
-![Invertebrates-mobile](documentation/testing/lighthouse-tests/invertebrates-mobile.png)
-![Invertebrates-web](documentation/testing/lighthouse-tests/invertebrates-web.png)
+- Invertebrates  
+![Invertebrates-mobile](documentation/testing/lighthouse-tests/invertebrates-mobile.png)  
+![Invertebrates-desktop](documentation/testing/lighthouse-tests/invertebrates-desktop.png)  
 
 ### Information page
-- Reptiles
-![Reptiles-mobile](documentation/testing/lighthouse-tests/reptiles-mobile.png)
-![Reptiles-web](documentation/testing/lighthouse-tests/reptiles-web.png)
+- Reptiles  
+![Reptiles-mobile](documentation/testing/lighthouse-tests/reptiles-mobile.png)  
+![Reptiles-desktop](documentation/testing/lighthouse-tests/reptiles-desktop.png)  
 
-- Amphibians
-(Bad SEO score)
-![Amphibians-mobile](documentation/testing/lighthouse-tests/amphibians-mobile-1.png)
-![Amphibians-web](documentation/testing/lighthouse-tests/amphibians-web.png)
+- Amphibians  
+![Amphibians-mobile](documentation/testing/lighthouse-tests/amphibians-mobile.png)  
+![Amphibians-desktop](documentation/testing/lighthouse-tests/amphibians-desktop.png)  
 
-- Fish
-(Bad SEO score)
-![Fish-mobile](documentation/testing/lighthouse-tests/fish-mobile-1.png)
-![Fish-web](documentation/testing/lighthouse-tests/fish-web.png)
+A more descriptive link ("more detailed taxonomy details" instead of "click here") was added to the amphibian page to improve the SEO score from 83 (mobile) and 80 (desktop) to 92 (mobile) and 90 (desktop).
 
-- Mammals and Birds
-![Mammals-and-birds-mobile](documentation/testing/lighthouse-tests/mammals-birds-mobile.png)
-![Mammals-and-birds-web](documentation/testing/lighthouse-tests/mammals-birds-web.png)
+- Fish  
+![Fish-mobile](documentation/testing/lighthouse-tests/fish-mobile.png)  
+![Fish-desktop](documentation/testing/lighthouse-tests/fish-desktop.png)  
 
-- Spiders
-![Spiders-mobile](documentation/testing/lighthouse-tests/spiders-mobile.png)
-![Spiders-web](documentation/testing/lighthouse-tests/spiders-web.png)
+A more descriptive link ("more about pufferfish genera" instead of "click here") was added to the amphibian page to improve the SEO score from 83 (mobile) and 80 (desktop) to 92 (mobile) and 90 (desktop).
 
-- Scorpions
-![Scorpions-mobile](documentation/testing/lighthouse-tests/scorpions-mobile.png)
-![Scorpions-web](documentation/testing/lighthouse-tests/scorpions-web.png)
+- Mammals and Birds  
+![Mammals-and-birds-mobile](documentation/testing/lighthouse-tests/mammals-birds-mobile.png)  
+![Mammals-and-birds-desktop](documentation/testing/lighthouse-tests/mammals-birds-desktop.png)  
 
-- Insects and Other Arthropods
-![Insects-Arthropods-mobile](documentation/testing/lighthouse-tests/insects-mobile.png)
-![Insects-Arthropods-web](documentation/testing/lighthouse-tests/insects-web.png)
+- Spiders  
+![Spiders-mobile](documentation/testing/lighthouse-tests/spiders-mobile.png)  
+![Spiders-desktop](documentation/testing/lighthouse-tests/spiders-desktop.png)  
 
-- Marine Invertebrates
-![Marine-Invertebrates-mobile](documentation/testing/lighthouse-tests/marine-mobile.png)
-![Marine-Invertebrates-web](documentation/testing/lighthouse-tests/marine-web.png)
+- Scorpions  
+![Scorpions-mobile](documentation/testing/lighthouse-tests/scorpions-mobile.png)  
+![Scorpions-desktop](documentation/testing/lighthouse-tests/scorpions-desktop.png)  
+
+- Insects and Other Arthropods  
+![Insects-Arthropods-mobile](documentation/testing/lighthouse-tests/insects-mobile.png)  
+![Insects-Arthropods-desktop](documentation/testing/lighthouse-tests/insects-desktop.png)  
+
+- Marine Invertebrates  
+![Marine-Invertebrates-mobile](documentation/testing/lighthouse-tests/marine-mobile.png)  
+![Marine-Invertebrates-desktop](documentation/testing/lighthouse-tests/marine-desktop.png)  
 
 ### Contact page
-- Contact Page
+- Contact Page  
 (bad score)
-![Contact-mobile](documentation/testing/lighthouse-tests/contact-mobile-1.png)
-![Contact-web](documentation/testing/lighthouse-tests/contact-web.png)
+![Contact-mobile](documentation/testing/lighthouse-tests/contact-mobile.png)  
+![Contact-desktop](documentation/testing/lighthouse-tests/contact-desktop.png)
 
-- Confirmation Page
+- Confirmation Page  
 (bad score)
-![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)
-![Confirmation-web](documentation/testing/lighthouse-tests/confirmation-web.png)
+![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)  
+![Confirmation-desktop](documentation/testing/lighthouse-tests/confirmation-desktop.png)
 
 [Back to Top](#contents)
 
@@ -187,12 +194,16 @@ This issue was fixed by removing the marign-left and using the code above to pro
 
 ## Map overlay issue
 
+During development, the contact page was modified to move the map to the bottom of the page. During this move, a bug occured whereby the map was overlapping into the footer, as shown in the portrait and landscape mobile screenshots below.
+
 ![map-overlap-portrait](documentation/testing/bugs/map-overlap-issue-portrait.jpg)
 
 ![map-overlap-landscape](documentation/testing/bugs/map-overlap-issue-landscape.jpg)
 
+The source of this issue was due to the page originally being given a height value of 1000px to allow the spiderweb image to be shown correctly. A height of 1000px was no longer enough to display all the page elements within the CSS grid given to the page. By removing this 1000px height value and redesigning the CSS grid, the map was shown correctly and was no longer overlapping into the footer.
+
 ## Unfixed Bugs
 
-<!-- iPad landscape issue? -->
+There are no remaining bugs that I am aware of.
 
 [Back to Top](#contents)
