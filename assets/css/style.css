@@ -481,7 +481,7 @@ footer {
     padding-top: 50px;
 }
 
-/* Media queries */
+/* Media queries for pages 950px and above*/
 @media screen and (min-width: 950px) {
 
     /* Footer media queries */
@@ -584,7 +584,7 @@ footer {
         height: auto;
     }
 }
-
+/* Media queries for screens larger than 1250px*/
 @media screen and (min-width: 1250px) {
     /* Contact page media queries */
     .contact-page-div {

@@ -31,7 +31,7 @@
 The target audience for this website is adults and children aged 12+. It is hoped that the site will be useful for anyone who has an interest in venom, animal poison or animals in general.
 
 
-![am-i-responsive](documentation/testing/am-i-responsive.png)
+![am-i-responsive](documentation/testing/responsiveness/am-i-responsive.png)
 
 Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
 

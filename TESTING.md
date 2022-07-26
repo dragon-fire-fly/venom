@@ -154,14 +154,20 @@ A more descriptive link ("more about pufferfish genera" instead of "click here")
 
 ### Contact page
 - Contact Page  
-(bad score)
 ![Contact-mobile](documentation/testing/lighthouse-tests/contact-mobile.png)  
-![Contact-desktop](documentation/testing/lighthouse-tests/contact-desktop.png)
+![Contact-desktop](documentation/testing/lighthouse-tests/contact-desktop.png)  
+
+The desktop version of the contact page had an SEO score of 89 due to the inclusion of the JavaScript menu using a fontawesome icon making the link "uncrawlable". I was unable to improve this score to be above 90 without removing the JavaScript menu. The inclusion of the menu and its effect on the overall user experience and layout of the site on mobile was deemed more important at this time.
 
 - Confirmation Page  
-(bad score)
 ![Confirmation-mobile](documentation/testing/lighthouse-tests/confirmation-mobile-1.png)  
 ![Confirmation-desktop](documentation/testing/lighthouse-tests/confirmation-desktop.png)
+
+The desktop version of the confirmation page had an SEO score of 89 due to the inclusion of the JavaScript menu using a fontawesome icon making the link "uncrawlable". I was unable to improve this score to be above 90 without removing the JavaScript menu. The inclusion of the menu and its effect on the overall user experience and layout of the site on mobile was deemed more important at this time.
+
+The accessibilty score was also below 90 (85 and 89 for mobile and desktop respectively) due to the redirect function included in the head element (<meta http-equiv="refresh" content="10; url=index.html">). This automatically redirects the user to index.html after 10 seconds and includes a link that users can click if they wish to be taken there automatically. 
+
+The increase in user experience provided by this feature was deemed more important than the accessibility score as the page clearly explains that the user is about to be redirected and so users using a screen reader will know that this is about to happen.
 
 [Back to Top](#contents)
 
@@ -173,6 +179,24 @@ The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&backgroun
 [Back to Top](#contents)
 
 # Responsiveness
+The site was designed using a "mobile first" approach. This mean that the basic CSS rules apply to smaller screen sizes and media queries change the content for larger screen sizes. In general the following break points were considered and used for the design of the website: 375px (medium size mobile phone), 750px (medium tablet in portrait), 950px (small desktop, laptop and tablet in landscape) and 1250px (larger desktop).
+
+The site overall was tested using [Am I Responsive?](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html). A screenshot is shown below:
+![am-i-responsive](documentation/testing/responsiveness/am-i-responsive.png)
+
+The index.html page appears like this on different screen sizes:
+![index-page-responsive](documentation/testing/responsiveness/index-responsive.png)
+
+
+The majority of media queries were at screen sizes of 950px and above. In the original wireframe designs, an additional breakpoint for tablets was included (to be between approximately 750-950px), however, when this was tested, the icons for selecting animals on the intermediate page appeared too small, as shown below. Therefore, a larger (950px) breakpoint was selected here to stack the icons on top of one another:
+
+![intermediate-page-small-icons](documentation/testing/responsiveness/intermediate-page-750px.png)
+
+This effect was also seen on the individual animal pages as the photos appeared too small as the CSS grid layout accomodated for a larger block of text on screen sizes 750px and 960px. as shown below. Therefore the breakpoint selected for side-by-side text and images was 1250px.
+![individual-page-responsive-design](documentation/testing/responsiveness/individual-page-wrong-bps.png)
+
+The optimised individual pages now appear like this:
+![individual-pages-optimised](documentation/testing/responsiveness/individual-page-optimised.png)
 
 
 
