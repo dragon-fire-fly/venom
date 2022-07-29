@@ -90,8 +90,10 @@ FontAwesome icons were used for social media buttons ([Facebook](https://fontawe
 
 ## Wireframes
 <details>
-<summary>
-The following wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)</summary>
+<summary> Click to expand and view the wireframes for this project
+</summary>
+
+The wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
 
 | Name  | Wireframe  |
 |---|---|
@@ -111,6 +113,19 @@ The following wireframes were created using [Balsamiq Wireframes](https://balsam
 'Love Venom' strives to provide high quality, non-distorted images accompanied by informative text to the user. This is delivered by consistently styled pages, intuitive navigation and formatting that complies with best practice. Below are some details about the features that have been incorporated into the project, along with some features which could be implemented in the future to make the site better.
 
 ## Existing Features
+
+The general features of the website include the following:
+
+- CSS grid for positioning elements on the page and improving responsiveness of the site
+- `root` values to provide consistency in colour and typography. Their use allows a global change in colours or fonts, ensuring consistency is maintained on each page 
+- smooth scrolling when "back to top" is clicked on each page using: 
+~~~
+html {
+  scroll-behavior: smooth;
+}
+~~~
+
+The specific features of the website are detailed in sections below: 
 
 ### Navigation bar
 - Featured on every page of the site and uses consistent colours and typography
@@ -201,8 +216,8 @@ The site could feature some kind of interactive blog which provides detail about
 - [Git](https://git-scm.com/) for source code management
 - [Balsamiq](https://balsamiq.com/) for creating wireframes at the start of the project to help guide HTML and CSS coding
 - [Photopea](https://www.photopea.com/) for cropping some of the photos
-- CSS grid for positioning elements within the style.css file
-- --root values in the style.css file for consistency and ease of alteration of colours and fonts
+- CSS grid for positioning elements and improved responsiveness within the style.css file
+- `root` values in the style.css file for consistency and ease of alteration of colours and fonts
 
 [Back to Top](#contents)
 
@@ -240,7 +255,7 @@ Following these steps will allow you to clone a repository and open it in your l
 4. Open your local IDE and change the current working directory in GitBash to the desired location for the new repository
 5. In the command line, type 'git clone' and paste the URL obtained earlier from GitHub.
 
-![Creating-local-clone](documentation/deployment/local-IDE-clone.png)
+![Creating-local-clone](documentation/deployment/local-ide-clone.png)
 
 [Back to Top](#contents)
 

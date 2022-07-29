@@ -17,6 +17,10 @@
     --h1-color: 18,97,0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 * {
     margin: 0;
     padding: 0;
