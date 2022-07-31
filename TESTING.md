@@ -35,7 +35,7 @@ Contact page:
 # Code Validation
 ## HTML Validation
 The HTML code for each page was checked using the [W3 HTML validator](https://validator.w3.org/)
-All pages passed validation with no errors.
+All pages passed validation with no errors. Some "warnings" remained, but these are most likely due to the use of `root` values as the W3 HTML validator does not recognise these as valid CSS.   
 ### Home page
 ![Home](documentation/testing/html-w3-validation-tests/index-w3.png)
 
@@ -180,6 +180,7 @@ Lighthouse accessibility scores may also be viewed in the [Lighthouse tests](#li
 ## Wave Tool
 The [Web Accessibility Evaluation Tool (WAVE)](https://wave.webaim.org/) was also used to test accessibility of the website. The results for each page are shown below.   
 All pages contain one error which refers to a "redundant link". This is due to the logo at the top of the page and the "home" link in the navigation pane linking to the same page (the home site).   
+
 ![Redundant-link](documentation/testing/wave-tool/redundant-link.png)
 
 ### Home Page
@@ -219,6 +220,8 @@ Following running the tool, all text on these pages was changed to either center
 - Confirmation   
 ![Confirmation](documentation/testing/wave-tool/confirmation.png)
 
+An error remained on the confirmation page due to the "redirect" feature mentioned above in the [Lighthouse tests](#lighthouse-tests) section above.   
+There was also one additional alert remaining due to "suspicious link text" as the link reads "Click here to be redirected immediately".   
 
 [Back to Top](#contents)
 
