@@ -278,7 +278,7 @@ footer {
 }
 
 .page-intro {
-    text-align: justify;
+    text-align: center;
     padding: 20px 10%;
     font-size: 110%;
 }
@@ -297,7 +297,7 @@ footer {
     border-radius: 2%;
 }
 .animal-text-containers {
-    text-align: justify;
+    text-align: left;
 }
 .animal-text-containers h3 {
     text-align: center;

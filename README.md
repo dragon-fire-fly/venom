@@ -99,7 +99,7 @@ The following fonts were selected from Google Fonts:
 
 ![typography](documentation/features/typography.jpg)
 
-All fonts were set as --root values and had _sans-serif_ set as a fall-back font in the case that the specific fonts could not be loaded.
+All fonts were set as `root` values and had _sans-serif_ set as a fall-back font in the case that the specific fonts could not be loaded.
 
 FontAwesome icons were used for social media buttons ([Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) and [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands)) and collapible nav menu ([Bars menu](https://fontawesome.com/search?q=bars&s=solid%2Cbrands)).
 
