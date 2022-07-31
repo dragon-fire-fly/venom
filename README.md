@@ -34,9 +34,9 @@ The target audience for this website is adults and children aged 12+. It is hope
 
 ![am-i-responsive](documentation/testing/responsiveness/am-i-responsive.png)
 
-Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/index.html) to view responsive mockup
+Click [here](https://ui.dev/amiresponsive?url=https://dragon-fire-fly.github.io/venom/) to view responsive mockup
 
-Click [here](https://dragon-fire-fly.github.io/venom/index.html) for the live website.
+Click [here](https://dragon-fire-fly.github.io/venom/) for the live website.
 
 [Back to Top](#contents)
 
