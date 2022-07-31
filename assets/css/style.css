@@ -1,5 +1,7 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@400&family=Berkshire+Swash&family=Diplomata+SC&family=Kosugi+Maru&family=Libre+Baskerville:ital@1&family=Lobster&family=Lobster+Two&family=Merienda&family=Montserrat:wght@300&family=Roboto+Mono&family=Satisfy&display=swap');
 
+/* Set root values*/
 :root {
     --h1-font: "Berkshire Swash", sans-serif;
     --h2-font:"Berkshire Swash", sans-serif;
@@ -16,11 +18,11 @@
     --social-media:0,56,89;
     --h1-color: 18,97,0;
 }
-
+/* Set scroll behaviour */
 html {
     scroll-behavior: smooth;
   }
-  
+/* Set global CSS settings */  
 * {
     margin: 0;
     padding: 0;
@@ -108,7 +110,7 @@ footer {
 }
 
 .social-networks {
-    grid-area:2/1/span 2/span 2;
+    grid-area:2/1/span 2/-1;
     font-family: var(--h1-font);
     text-align: center;
     margin: 0;
@@ -467,16 +469,8 @@ footer {
 @media screen and (min-width: 950px) {
 
     /* Footer media queries */
-    .footer-img-large-screens {
-        background: url(../images/footer-spider-narrow.jpg) no-repeat right bottom;
-        background-size: auto;
-        background-attachment: fixed;
-    }
-
     .social-networks {
-        grid-area:3/1/span 3/span 2;
-        background-color: rgba(var(--l-blue),0.6);
-        margin: 0;
+        grid-area:3/1/span 3/-1;   
     }
 
     .social-networks p {
