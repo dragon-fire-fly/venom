@@ -9,6 +9,7 @@ Click [here](README.md) to return back to the main body of the README.md
     * [CSS Validation](<#css-validation>)  
     * [Lighthouse Tests](<#lighthouse-tests>)  
 * [**Accessibility**](<#accessibility>)  
+    * [WAVE Tool](<#wave-tool>)
 * [**Responsiveness**](<#responsiveness>)  
 * [**Bug Fixes**](<#bug-fixes>)  
     * [Overflow-x issue](<#overflow-x-problem>)
@@ -175,6 +176,48 @@ The [Eightshapes](https://contrast-grid.eightshapes.com/?version=1.1.0&backgroun
 ![eightshapes-grid](documentation/testing/contrast-grid-annotated.jpg)
 
 Lighthouse accessibility scores may also be viewed in the [Lighthouse tests](#lighthouse-tests) section above.
+
+## Wave Tool
+The [Web Accessibility Evaluation Tool (WAVE)](https://wave.webaim.org/) was also used to test accessibility of the website. The results for each page are shown below.   
+All pages contain one error which refers to a "redundant link". This is due to the logo at the top of the page and the "home" link in the navigation pane linking to the same page (the home site).   
+
+### Home Page
+- Index   
+![Index-page](documentation/testing/wave-tool/index.png)
+### Intermediate Pages
+- Vertebrates   
+![Vertebrates](documentation/testing/wave-tool/vertebrates.png)
+- Invertebrates   
+![Invertebrates](documentation/testing/wave-tool/invertebrates.png)
+
+### Information Pages
+When first running the WAVE tool, large blocks of text on the information pages had their alignment set to "justified". This can cause problems for users with dyslexia or other conditions which could affect reading or comprehension. Below shows the original WAVE score for the reptiles page.   
+![Errors](documentation/testing/wave-tool/reptiles-alerts.png)
+
+Following running the tool, all text on these pages was changed to either center aligned or left aligned to improve the accessibility of the pages. The new scores can be found below.
+
+- Reptiles   
+![Reptiles](documentation/testing/wave-tool/reptiles.png)
+- Amphibians   
+![Amphibians](documentation/testing/wave-tool/amphibians.png)
+- Fish   
+![Fish](documentation/testing/wave-tool/fish.png)
+- Mammals and Birds   
+![Mammals-and-birds](documentation/testing/wave-tool/mammals-birds.png)
+- Spiders   
+![Spiders](documentation/testing/wave-tool/spiders.png)
+- Scorpions   
+![Scorpions](documentation/testing/wave-tool/scorpions.png)
+- Insects and other Arthropods   
+![Insects-and-other-arthropods](documentation/testing/wave-tool/insects.png)
+- Marine Invertebrates   
+![Marine-invertebrates](documentation/testing/wave-tool/marine-inverts.png)
+### Contact Pages
+- Contact   
+![Contact](documentation/testing/wave-tool/contact.png)
+- Confirmation   
+![Confirmation](documentation/testing/wave-tool/confirmation.png)
+
 
 [Back to Top](#contents)
 
