@@ -180,6 +180,7 @@ Lighthouse accessibility scores may also be viewed in the [Lighthouse tests](#li
 ## Wave Tool
 The [Web Accessibility Evaluation Tool (WAVE)](https://wave.webaim.org/) was also used to test accessibility of the website. The results for each page are shown below.   
 All pages contain one error which refers to a "redundant link". This is due to the logo at the top of the page and the "home" link in the navigation pane linking to the same page (the home site).   
+![Redundant-link](documentation/testing/wave-tool/redundant-link.png)
 
 ### Home Page
 - Index   
