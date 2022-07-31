@@ -459,10 +459,14 @@ footer {
 #thank-you {
     grid-area:2/3/4/-3;
     background-color: rgba(var(--white), 0.6);
-    font-size: x-large;
+    font-size: 110%;
     font-weight: 600;
     text-align: center;
     padding-top: 50px;
+}
+
+.home-page-link {
+    color: rgba(var(--black),1);
 }
 
 /* Media queries for pages 950px and above*/
